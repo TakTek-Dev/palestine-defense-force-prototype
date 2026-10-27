@@ -9,7 +9,7 @@ import json
 import os
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
-V = '11'                                       # bump on any asset change (Chrome caches hard)
+V = '18'                                       # bump on any asset change (Chrome caches hard)
 SITE = 'Palestine Defense Force'
 BASE_URL = 'https://imsemoo.github.io/palestine-defense-force-prototype/'   # TakTek-Dev Pages waits on the org Actions allowlist
 E = json.load(open(os.path.join(ROOT, 'tools', 'edition.json'), encoding='utf-8'))
@@ -131,7 +131,9 @@ def photo(slug, sizes='100vw', cls='ph ph--32', eager=False, caption=False):
     dm = DIM[slug]
     pos = f' style="object-position:{p["focus"]}"' if p.get('focus') else ''
     load = 'fetchpriority="high"' if eager else 'loading="lazy" decoding="async"'
-    img = (f'<div class="{cls}"><img src="{C.R}assets/img/photo/{slug}.webp?v={V}" width="{dm["w"]}" height="{dm["h"]}" '
+    base = f'{C.R}assets/img/photo/{slug}'
+    img = (f'<div class="{cls}"><img src="{base}.webp?v={V}" srcset="{base}-480.webp?v={V} 480w, {base}.webp?v={V} {dm["w"]}w" '
+           f'width="{dm["w"]}" height="{dm["h"]}" '
            f'alt="{esc(p["alt"])}" sizes="{sizes}" {load}{pos}></div>')
     if caption:
         return f'<figure style="margin:0">{img}<figcaption>{esc(p["caption"])} Photo: {esc(p["author"])}, {esc(p["license"])}.</figcaption></figure>'
@@ -235,9 +237,9 @@ def foot(js=True):
 <footer class="foot"><div class="wrap">
 <div class="foot-top">
 <div>{lockup(night=True)}<p>A legal-defense desk for Palestinians: who is held, on what law, in which court, and what can be done about it. Every figure is linked to its source.</p></div>
-<div><h4>Sections</h4><ul>{secs}</ul></div>
-<div><h4>The record</h4><ul><li><a href="{C.R}docket.html">The docket</a></li><li><a href="{C.R}cases.html">Case files</a></li><li><a href="{C.R}archive.html">Archive</a></li><li><a href="{C.R}rights.html">Know your rights</a></li><li><a href="{C.R}glossary.html">Glossary</a></li><li><a href="{C.R}directory.html">Legal-aid directory</a></li><li><a href="{C.R}search.html">Search</a></li></ul></div>
-<div><h4>Us</h4><ul><li><a href="{C.R}about.html">About</a></li><li><a href="{C.R}method.html">How we keep the record</a></li><li><a href="{C.R}corrections.html">Corrections</a></li><li><a href="{C.R}help.html">Request a lawyer</a></li><li><a href="{C.R}contact.html">Contact</a></li><li><a href="{C.R}privacy.html">Privacy</a></li><li><a href="{C.R}credits.html">Credits</a></li><li><a href="{C.R}index.html">Identity book</a></li></ul></div>
+<div><h2 class="fh">Sections</h2><ul>{secs}</ul></div>
+<div><h2 class="fh">The record</h2><ul><li><a href="{C.R}docket.html">The docket</a></li><li><a href="{C.R}cases.html">Case files</a></li><li><a href="{C.R}archive.html">Archive</a></li><li><a href="{C.R}rights.html">Know your rights</a></li><li><a href="{C.R}glossary.html">Glossary</a></li><li><a href="{C.R}directory.html">Legal-aid directory</a></li><li><a href="{C.R}search.html">Search</a></li></ul></div>
+<div><h2 class="fh">Us</h2><ul><li><a href="{C.R}about.html">About</a></li><li><a href="{C.R}method.html">How we keep the record</a></li><li><a href="{C.R}corrections.html">Corrections</a></li><li><a href="{C.R}help.html">Request a lawyer</a></li><li><a href="{C.R}contact.html">Contact</a></li><li><a href="{C.R}privacy.html">Privacy</a></li><li><a href="{C.R}credits.html">Credits</a></li><li><a href="{C.R}index.html">Identity book</a></li></ul></div>
 </div>
 <div class="foot-bot"><span>© {TODAY.year} {SITE}. Design prototype; reporting summarised from the sources linked on each page.</span><span>Photographs: Wikimedia Commons, credited on each.</span></div>
 </div></footer>

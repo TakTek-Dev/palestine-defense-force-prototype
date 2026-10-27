@@ -1,0 +1,791 @@
+{
+ "generated": "2026-10-27",
+ "custody_monthly": [
+  {
+   "as_of": "2023-09-01",
+   "sentenced": 2364,
+   "remand": 1460,
+   "administrative": 1264,
+   "unlawful_combatants": 0,
+   "total": 5088,
+   "source": {
+    "outlet": "HaMoked",
+    "title": "\"Security\" inmates held in prisons inside Israel (monthly IPS figures)",
+    "url": "https://hamoked.org/prisoners-charts.php",
+    "date": "2026-10-01"
+   }
+  },
+  {
+   "as_of": "2023-10-01",
+   "sentenced": 2410,
+   "remand": 1463,
+   "administrative": 1319,
+   "unlawful_combatants": 0,
+   "total": 5192,
+   "source": {
+    "outlet": "HaMoked",
+    "title": "\"Security\" inmates held in prisons inside Israel (monthly IPS figures)",
+    "url": "https://hamoked.org/prisoners-charts.php",
+    "date": "2026-10-01"
+   }
+  },
+  {
+   "as_of": "2023-11-01",
+   "sentenced": 2313,
+   "remand": 2321,
+   "administrative": 2070,
+   "unlawful_combatants": 105,
+   "total": 6809,
+   "source": {
+    "outlet": "HaMoked",
+    "title": "\"Security\" inmates held in prisons inside Israel (monthly IPS figures)",
+    "url": "https://hamoked.org/prisoners-charts.php",
+    "date": "2026-10-01"
+   }
+  },
+  {
+   "as_of": "2023-12-01",
+   "sentenced": 2188,
+   "remand": 2356,
+   "administrative": 2873,
+   "unlawful_combatants": 260,
+   "total": 7677,
+   "source": {
+    "outlet": "HaMoked",
+    "title": "\"Security\" inmates held in prisons inside Israel (monthly IPS figures)",
+    "url": "https://hamoked.org/prisoners-charts.php",
+    "date": "2026-10-01"
+   }
+  },
+  {
+   "as_of": "2024-01-01",
+   "sentenced": 2114,
+   "remand": 2534,
+   "administrative": 3291,
+   "unlawful_combatants": 661,
+   "total": 8600,
+   "source": {
+    "outlet": "HaMoked",
+    "title": "\"Security\" inmates held in prisons inside Israel (monthly IPS figures)",
+    "url": "https://hamoked.org/prisoners-charts.php",
+    "date": "2026-10-01"
+   }
+  },
+  {
+   "as_of": "2024-02-01",
+   "sentenced": 2084,
+   "remand": 2752,
+   "administrative": 3484,
+   "unlawful_combatants": 606,
+   "total": 8926,
+   "source": {
+    "outlet": "HaMoked",
+    "title": "\"Security\" inmates held in prisons inside Israel (monthly IPS figures)",
+    "url": "https://hamoked.org/prisoners-charts.php",
+    "date": "2026-10-01"
+   }
+  },
+  {
+   "as_of": "2024-03-01",
+   "sentenced": 2070,
+   "remand": 2656,
+   "administrative": 3558,
+   "unlawful_combatants": 793,
+   "total": 9077,
+   "source": {
+    "outlet": "HaMoked",
+    "title": "\"Security\" inmates held in prisons inside Israel (monthly IPS figures)",
+    "url": "https://hamoked.org/prisoners-charts.php",
+    "date": "2026-10-01"
+   }
+  },
+  {
+   "as_of": "2024-04-01",
+   "sentenced": 2071,
+   "remand": 2731,
+   "administrative": 3661,
+   "unlawful_combatants": 849,
+   "total": 9312,
+   "source": {
+    "outlet": "HaMoked",
+    "title": "\"Security\" inmates held in prisons inside Israel (monthly IPS figures)",
+    "url": "https://hamoked.org/prisoners-charts.php",
+    "date": "2026-10-01"
+   }
+  },
+  {
+   "as_of": "2024-05-01",
+   "sentenced": 2072,
+   "remand": 2727,
+   "administrative": 3424,
+   "unlawful_combatants": 865,
+   "total": 9088,
+   "source": {
+    "outlet": "HaMoked",
+    "title": "\"Security\" inmates held in prisons inside Israel (monthly IPS figures)",
+    "url": "https://hamoked.org/prisoners-charts.php",
+    "date": "2026-10-01"
+   }
+  },
+  {
+   "as_of": "2024-06-01",
+   "sentenced": 2070,
+   "remand": 2733,
+   "administrative": 3410,
+   "unlawful_combatants": 899,
+   "total": 9112,
+   "source": {
+    "outlet": "HaMoked",
+    "title": "\"Security\" inmates held in prisons inside Israel (monthly IPS figures)",
+    "url": "https://hamoked.org/prisoners-charts.php",
+    "date": "2026-10-01"
+   }
+  },
+  {
+   "as_of": "2024-07-01",
+   "sentenced": 2059,
+   "remand": 2783,
+   "administrative": 3379,
+   "unlawful_combatants": 1402,
+   "total": 9623,
+   "source": {
+    "outlet": "HaMoked",
+    "title": "\"Security\" inmates held in prisons inside Israel (monthly IPS figures)",
+    "url": "https://hamoked.org/prisoners-charts.php",
+    "date": "2026-10-01"
+   }
+  },
+  {
+   "as_of": "2024-08-01",
+   "sentenced": 2074,
+   "remand": 2791,
+   "administrative": 3432,
+   "unlawful_combatants": 1584,
+   "total": 9881,
+   "source": {
+    "outlet": "HaMoked",
+    "title": "\"Security\" inmates held in prisons inside Israel (monthly IPS figures)",
+    "url": "https://hamoked.org/prisoners-charts.php",
+    "date": "2026-10-01"
+   }
+  },
+  {
+   "as_of": "2024-09-01",
+   "sentenced": 2061,
+   "remand": 2848,
+   "administrative": 3323,
+   "unlawful_combatants": 1612,
+   "total": 9844,
+   "source": {
+    "outlet": "HaMoked",
+    "title": "\"Security\" inmates held in prisons inside Israel (monthly IPS figures)",
+    "url": "https://hamoked.org/prisoners-charts.php",
+    "date": "2026-10-01"
+   }
+  },
+  {
+   "as_of": "2024-10-01",
+   "sentenced": 2046,
+   "remand": 2943,
+   "administrative": 3398,
+   "unlawful_combatants": 1618,
+   "total": 10005,
+   "source": {
+    "outlet": "HaMoked",
+    "title": "\"Security\" inmates held in prisons inside Israel (monthly IPS figures)",
+    "url": "https://hamoked.org/prisoners-charts.php",
+    "date": "2026-10-01"
+   }
+  },
+  {
+   "as_of": "2024-11-01",
+   "sentenced": 1997,
+   "remand": 3024,
+   "administrative": 3443,
+   "unlawful_combatants": 1627,
+   "total": 10091,
+   "source": {
+    "outlet": "HaMoked",
+    "title": "\"Security\" inmates held in prisons inside Israel (monthly IPS figures)",
+    "url": "https://hamoked.org/prisoners-charts.php",
+    "date": "2026-10-01"
+   }
+  },
+  {
+   "as_of": "2024-12-01",
+   "sentenced": 2003,
+   "remand": 2951,
+   "administrative": 3428,
+   "unlawful_combatants": 1772,
+   "total": 10154,
+   "source": {
+    "outlet": "HaMoked",
+    "title": "\"Security\" inmates held in prisons inside Israel (monthly IPS figures)",
+    "url": "https://hamoked.org/prisoners-charts.php",
+    "date": "2026-10-01"
+   }
+  },
+  {
+   "as_of": "2025-01-01",
+   "sentenced": 2025,
+   "remand": 2934,
+   "administrative": 3376,
+   "unlawful_combatants": 1886,
+   "total": 10221,
+   "source": {
+    "outlet": "HaMoked",
+    "title": "\"Security\" inmates held in prisons inside Israel (monthly IPS figures)",
+    "url": "https://hamoked.org/prisoners-charts.php",
+    "date": "2026-10-01"
+   }
+  },
+  {
+   "as_of": "2025-02-01",
+   "sentenced": 1734,
+   "remand": 2941,
+   "administrative": 3369,
+   "unlawful_combatants": 1802,
+   "total": 9846,
+   "source": {
+    "outlet": "HaMoked",
+    "title": "\"Security\" inmates held in prisons inside Israel (monthly IPS figures)",
+    "url": "https://hamoked.org/prisoners-charts.php",
+    "date": "2026-10-01"
+   }
+  },
+  {
+   "as_of": "2025-03-01",
+   "sentenced": 1486,
+   "remand": 2960,
+   "administrative": 3405,
+   "unlawful_combatants": 1555,
+   "total": 9406,
+   "source": {
+    "outlet": "HaMoked",
+    "title": "\"Security\" inmates held in prisons inside Israel (monthly IPS figures)",
+    "url": "https://hamoked.org/prisoners-charts.php",
+    "date": "2026-10-01"
+   }
+  },
+  {
+   "as_of": "2025-04-01",
+   "sentenced": 1471,
+   "remand": 3076,
+   "administrative": 3498,
+   "unlawful_combatants": 1747,
+   "total": 9792,
+   "source": {
+    "outlet": "HaMoked",
+    "title": "\"Security\" inmates held in prisons inside Israel (monthly IPS figures)",
+    "url": "https://hamoked.org/prisoners-charts.php",
+    "date": "2026-10-01"
+   }
+  },
+  {
+   "as_of": "2025-05-01",
+   "sentenced": 1455,
+   "remand": 3190,
+   "administrative": 3577,
+   "unlawful_combatants": 1846,
+   "total": 10068,
+   "source": {
+    "outlet": "HaMoked",
+    "title": "\"Security\" inmates held in prisons inside Israel (monthly IPS figures)",
+    "url": "https://hamoked.org/prisoners-charts.php",
+    "date": "2026-10-01"
+   }
+  },
+  {
+   "as_of": "2025-06-01",
+   "sentenced": 1447,
+   "remand": 3174,
+   "administrative": 3562,
+   "unlawful_combatants": 2214,
+   "total": 10397,
+   "source": {
+    "outlet": "HaMoked",
+    "title": "\"Security\" inmates held in prisons inside Israel (monthly IPS figures)",
+    "url": "https://hamoked.org/prisoners-charts.php",
+    "date": "2026-10-01"
+   }
+  },
+  {
+   "as_of": "2025-07-01",
+   "sentenced": 1419,
+   "remand": 3260,
+   "administrative": 3629,
+   "unlawful_combatants": 2454,
+   "total": 10762,
+   "source": {
+    "outlet": "HaMoked",
+    "title": "\"Security\" inmates held in prisons inside Israel (monthly IPS figures)",
+    "url": "https://hamoked.org/prisoners-charts.php",
+    "date": "2026-10-01"
+   }
+  },
+  {
+   "as_of": "2025-08-01",
+   "sentenced": 1459,
+   "remand": 3291,
+   "administrative": 3613,
+   "unlawful_combatants": 2378,
+   "total": 10741,
+   "source": {
+    "outlet": "HaMoked",
+    "title": "\"Security\" inmates held in prisons inside Israel (monthly IPS figures)",
+    "url": "https://hamoked.org/prisoners-charts.php",
+    "date": "2026-10-01"
+   }
+  },
+  {
+   "as_of": "2025-09-01",
+   "sentenced": 1450,
+   "remand": 3351,
+   "administrative": 3577,
+   "unlawful_combatants": 2662,
+   "total": 11040,
+   "source": {
+    "outlet": "HaMoked",
+    "title": "\"Security\" inmates held in prisons inside Israel (monthly IPS figures)",
+    "url": "https://hamoked.org/prisoners-charts.php",
+    "date": "2026-10-01"
+   }
+  },
+  {
+   "as_of": "2025-10-01",
+   "sentenced": 1461,
+   "remand": 3378,
+   "administrative": 3544,
+   "unlawful_combatants": 2673,
+   "total": 11056,
+   "source": {
+    "outlet": "HaMoked",
+    "title": "\"Security\" inmates held in prisons inside Israel (monthly IPS figures)",
+    "url": "https://hamoked.org/prisoners-charts.php",
+    "date": "2026-10-01"
+   }
+  },
+  {
+   "as_of": "2025-11-01",
+   "sentenced": 1242,
+   "remand": 3389,
+   "administrative": 3368,
+   "unlawful_combatants": 1205,
+   "total": 9204,
+   "source": {
+    "outlet": "HaMoked",
+    "title": "\"Security\" inmates held in prisons inside Israel (monthly IPS figures)",
+    "url": "https://hamoked.org/prisoners-charts.php",
+    "date": "2026-10-01"
+   }
+  },
+  {
+   "as_of": "2025-12-01",
+   "sentenced": 1254,
+   "remand": 3359,
+   "administrative": 3350,
+   "unlawful_combatants": 1220,
+   "total": 9183,
+   "source": {
+    "outlet": "HaMoked",
+    "title": "\"Security\" inmates held in prisons inside Israel (monthly IPS figures)",
+    "url": "https://hamoked.org/prisoners-charts.php",
+    "date": "2026-10-01"
+   }
+  }
+ ],
+ "custody_monthly_notes": "Read from the data-judgment / data-arrest / data-administrative-arrest / data-unnlawful-combatants attributes of each month on hamoked.org/prisoners-charts.php (opened 2026-10-27). Mapping: judgment=sentenced, arrest=remand, administrative-arrest=administrative, unnlawful-combatants=unlawful_combatants; total = sum of the four, as in news.json. All 11 months already in news.json (2023-09, 2023-10, 2023-12, 2024-03, 2024-06, 2024-09, 2024-12, 2025-03, 2025-06, 2025-09, 2025-12) match exactly. No month between 2023-09 and 2025-12 is missing from HaMoked's data (the chart's only gaps anywhere are 4/2010 and 5/2012).",
+ "case_checks": {
+  "hussam-abu-safiya": {
+   "status_ok": true,
+   "latest_event": null,
+   "note": "Still held under the Unlawful Combatants Law with no charge; no development after the 6 Oct 2026 congressional letter found. Amnesty says the Supreme Court's 16 June 2026 ruling upheld his detention until at least October 2026, and Front Line Defenders / Democracy Now report a six-month extension on 28 April 2026, so a renewal decision may fall around now, but none was found in reporting (NOT VERIFIED).",
+   "sources": [
+    "https://www.amnesty.org/en/latest/news/2026/07/israel-opt-fears-mounting-for-arbitrarily-detained-palestinian-doctor-hussam-abu-safiya-amidst-reports-his-life-is-in-grave-danger/",
+    "https://www.middleeasteye.net/news/hussam-abu-safiya-abducted-palestinian-doctor-still-subject-torture-israel"
+   ]
+  },
+  "dana-joudeh": {
+   "released": true,
+   "release_date": "2026-09-14",
+   "source_url": "https://theintercept.com/2026/10/10/israel-palestine-prisoner-pregnancy-childbirth/",
+   "note": "The Intercept: release was set for 15 Sept, but on 14 Sept, two days after the 12 Sept C-section at Rambam Hospital, she and the baby were taken back to prison to process her release, and she was released that day. The news.json timeline entry 'Returned to prison' (14 Sept) should read 'Taken back to prison to process release; released the same day', and the 15 Sept 'scheduled release' entry is superseded. Conflict: Middle East Monitor (15 Sept, via Quds Press) says she gave birth on Monday (14 Sept) inside Damon prison and was due for release on Tuesday; it gives her home as Iraq al-Tayeh, Nablus governorate. The Intercept's account is later and more detailed."
+  },
+  "bushra-al-tawil": {
+   "status_ok": true,
+   "latest_event": {
+    "date": "2026-10-12",
+    "event": "PPS reports her administrative detention extended by a further four months; about 50 days in solitary confinement, lawyer visits blocked by repeated transfers",
+    "source_url": "https://english.palinfo.com/news/2026/10/13/371923/"
+   },
+   "note": "Source is the Palestinian Information Center (13 Oct) relaying a PPS statement made on Monday 12 Oct. Partisan outlet; no Israeli comment found."
+  },
+  "mohammed-zalbani": {
+   "status_ok": true,
+   "latest_event": null,
+   "note": "No development after 23 Sept 2026 found. Missing from the timeline: Al-Quds (16 Feb 2025) reported the Jerusalem ('Central') court sentenced him to 18 years plus 300,000 shekels compensation; arrest date given as 13 Feb 2023.",
+   "add_timeline": {
+    "date": "2025-02-16",
+    "event": "Jerusalem court sentences him to 18 years and 300,000 shekels compensation (date of report)",
+    "source_url": "https://www.alquds.com/en/posts/151959"
+   }
+  },
+  "khan-al-ahmar": {
+   "status_ok": true,
+   "latest_event": null,
+   "note": "No demolition or court development found after The Nation (5 Oct 2026). Exact date of Smotrich's directive: 19 May 2026 (Peace Now). A Times of Israel item about the government backing away from forced eviction dates from 2023, not 2026."
+  },
+  "masafer-yatta-firing-zone-918": {
+   "status_ok": true,
+   "latest_event": null,
+   "note": "No event after the 15 Oct OCHA entry found. Discrepancy: for Jinba on 23 Sept, Middle East Eye (24 Sept, citing B'Tselem) reports 24 residential and 16 agricultural structures demolished and about 176 people displaced incl. 85 children, against OCHA's 55 people. MEE also reports all five homes in Khirbet al-Fakhit demolished 'a week' after 2 Sept, displacing 32 people.",
+   "add_timeline": {
+    "date": "2026-09",
+    "event": "All five homes in Khirbet al-Fakhit demolished, 32 people displaced (about a week after 2 Sept; exact day not given)",
+    "source_url": "https://www.middleeasteye.net/news/israel-displaces-dozens-palestinians-amid-wave-masafer-yatta-demolitions"
+   }
+  },
+  "death-penalty-law-petition": {
+   "status_ok": true,
+   "latest_event": null,
+   "note": "Adalah's case page still lists only the 30 and 31 March 2026 steps; no report of the State's response, a hearing or a ruling found. Jerusalem Post (31 Mar) confirms Justice Yechiel Kasher declined to freeze the law, so it is in force while the petitions are pending."
+  },
+  "mohammad-al-halaseh": {
+   "status_ok": true,
+   "latest_event": null,
+   "note": "No hearing or ruling found after Adalah's 30 Apr 2026 petition; only Adalah/ACRI material covers it."
+  }
+ },
+ "extra_sources": {
+  "un-coi-west-bank-crimes-against-humanity": [
+   {
+    "outlet": "Haaretz (with The Associated Press)",
+    "title": "UN Inquiry Finds Israel Committed Crimes Against Humanity in West Bank",
+    "url": "https://www.haaretz.com/israel-news/israel-security/2026-10-26/ty-article/un-inquiry-accuses-israel-of-committing-crimes-against-humanity-in-west-bank/000001a1-78e5-dbdb-a7b1-f9e768690000",
+    "date": "2026-10-26"
+   }
+  ],
+  "hebron-mass-displacement": [
+   {
+    "outlet": "UN News",
+    "title": "West Bank: Hebron crackdown displaces thousands, Türk warns of ethnic cleansing",
+    "url": "https://news.un.org/en/story/2026/10/1168672",
+    "date": "2026-10-26"
+   },
+   {
+    "outlet": "Reuters (via Al-Monitor)",
+    "title": "Around 1,200 Palestinians are displaced in Hebron as Israel begins military operation",
+    "url": "https://www.al-monitor.com/originals/2026/10/around-1200-palestinians-are-displaced-hebron-israel-begins-military-operation",
+    "date": "2026-10-24"
+   }
+  ],
+  "abu-safiya-still-held-without-charge": [
+   {
+    "outlet": "Middle East Eye",
+    "title": "Hussam Abu Safiya: Abducted Palestinian doctor still subject to torture by Israel",
+    "url": "https://www.middleeasteye.net/news/hussam-abu-safiya-abducted-palestinian-doctor-still-subject-torture-israel",
+    "date": "2026-09-04"
+   }
+  ],
+  "olive-harvest-record-attacks": [
+   {
+    "outlet": "France 24 (The Observers)",
+    "title": "How Israeli settlers wearing keffiyehs are attacking West Bank olive groves",
+    "url": "https://www.france24.com/en/middle-east/20261023-how-israeli-settlers-wearing-keffiyehs-are-attacking-west-bank-olive-groves",
+    "date": "2026-10-23"
+   }
+  ],
+  "us-sanctions-the-icc": [
+   {
+    "outlet": "Human Rights Watch",
+    "title": "US Sanctions International Criminal Court",
+    "url": "https://www.hrw.org/news/2026/10/09/us-sanctions-international-criminal-court",
+    "date": "2026-10-09"
+   }
+  ],
+  "ips-security-inmates-october-2026": [
+   {
+    "outlet": "Addameer",
+    "title": "Three Years of Genocide: New Report by Palestinian Prisoners' Institutions Warns of Unprecedented Escalation Against Political Prisoners",
+    "url": "https://addameer.ps/news/5763",
+    "date": "2026-10-06"
+   }
+  ],
+  "dana-joudeh-birth-in-detention": [
+   {
+    "outlet": "Middle East Monitor",
+    "title": "Palestinian woman gives birth in Israel's Damon prison following arrest during pregnancy",
+    "url": "https://www.middleeastmonitor.com/20260915-palestinian-woman-gives-birth-in-israels-damon-prison-following-arrest-during-pregnancy/",
+    "date": "2026-09-15"
+   }
+  ],
+  "khan-al-ahmar-orders-revived": [
+   {
+    "outlet": "Peace Now",
+    "title": "Minister Smotrich Orders the Evacuation of Khan al-Ahmar as Part of Israeli Takeover of the Central West Bank and Construction in E1",
+    "url": "https://peacenow.org.il/en/minister-smotrich-the-evacuation-of-khan-al-ahmare1",
+    "date": "2026-05-19"
+   }
+  ],
+  "pps-2000-children-detained": [
+   {
+    "outlet": "Middle East Monitor",
+    "title": "Palestinian Prisoners' Club says Israel has detained over 2,000 children since October 2023",
+    "url": "https://www.middleeastmonitor.com/20261015-palestinian-prisoners-club-says-israel-has-detained-over-2000-children-since-october-2023/",
+    "date": "2026-10-15"
+   }
+  ],
+  "at-tur-largest-single-demolition": [
+   {
+    "outlet": "UN News",
+    "title": "Israeli demolition in East Jerusalem displaces 69 Palestinians",
+    "url": "https://news.un.org/en/story/2026/10/1168539",
+    "date": "2026-10-06"
+   },
+   {
+    "outlet": "Wadi Hilweh Information Center (Silwanic)",
+    "title": "Details: Al-Tur building demolished and 75 Jerusalemites displaced at dawn",
+    "url": "https://www.silwanic.net/article/news/80078",
+    "date": "2026-10-06"
+   }
+  ],
+  "death-penalty-law-petitions-pending": [
+   {
+    "outlet": "The Jerusalem Post",
+    "title": "High Court begins reviewing death penalty law as Adalah files petition after ACRI challenge",
+    "url": "https://www.jpost.com/israel-news/politics-and-diplomacy/article-891785",
+    "date": "2026-03-31"
+   }
+  ],
+  "addameer-office-raided": [
+   {
+    "outlet": "AFP (via France 24)",
+    "title": "Palestinian officials say Israeli army wounds two in Ramallah raid",
+    "url": "https://www.france24.com/en/live-news/20261013-palestinian-officials-say-israeli-army-wounds-two-in-ramallah-raid",
+    "date": "2026-10-13"
+   }
+  ],
+  "ben-gvir-films-hassan-salama-cell": [
+   {
+    "outlet": "AFP (via Arab News Pakistan)",
+    "title": "Israeli minister fined over video showing him threaten Palestinian inmate",
+    "url": "https://www.arabnews.pk/middle-east/israeli-minister-fined-over-video-showing-him-threaten-palestinian-inmate-3002974",
+    "date": "2026-10-02"
+   }
+  ],
+  "brad-lander-olive-volunteers-detained": [
+   {
+    "outlet": "NPR (via KUOW)",
+    "title": "Israel detains then frees dozens of Americans, including Congress nominee, in West Bank",
+    "url": "https://www.kuow.org/npr-news/2026-10-21/israel-detains-dozens-of-americans-including-a-congressional-candidate-in-west-bank",
+    "date": "2026-10-21"
+   }
+  ],
+  "margaret-owen-arrested-palestine-action": [
+   {
+    "outlet": "openDemocracy",
+    "title": "At 94, Margaret Owen was proud to be arrested for Gaza",
+    "url": "https://www.opendemocracy.net/at-94-margaret-owen-was-proud-to-be-arrested-for-gaza/",
+    "date": "2026-10-09"
+   }
+  ],
+  "icc-wins-sakharov-prize": [
+   {
+    "outlet": "Human Rights Watch",
+    "title": "ICC Wins EU Parliament's Sakharov Prize",
+    "url": "https://www.hrw.org/news/2026/10/22/icc-wins-eu-parliaments-sakharov-prize",
+    "date": "2026-10-22"
+   }
+  ],
+  "italy-investigates-katz-flotilla": [
+   {
+    "outlet": "The Times of Israel (with Reuters)",
+    "title": "Italy names Israeli defense minister, IDF chief, others in probe of flotilla activists' treatment",
+    "url": "https://www.timesofisrael.com/italy-names-israeli-defense-minister-idf-chief-others-in-probe-of-flotilla-activists-treatment/amp/",
+    "date": "2026-10-16"
+   }
+  ],
+  "un-settlement-business-database-214": [
+   {
+    "outlet": "AFP (via JusticeInfo.net)",
+    "title": "UN identifies 214 firms linked to Israeli settlements",
+    "url": "https://www.justiceinfo.net/en?p=165981",
+    "date": "2026-09-25"
+   }
+  ],
+  "nicaragua-v-germany-hearings": [
+   {
+    "outlet": "International Court of Justice",
+    "title": "Nicaragua v. Germany: preliminary objections (case page, public hearings 7-10 September 2026)",
+    "url": "https://icj-cij.org/case/193/preliminary-objections",
+    "date": "2026-09-10"
+   }
+  ],
+  "twelve-states-settlement-trade-measures": [
+   {
+    "outlet": "Egyptian Streets",
+    "title": "UK Announces Import Ban on Goods From Israeli Settlements in West Bank",
+    "url": "https://egyptianstreets.com/2026/09/08/uk-announces-import-ban-on-goods-from-israeli-settlements-in-west-bank/",
+    "date": "2026-09-08"
+   }
+  ],
+  "wfp-cuts-gaza-food": [
+   {
+    "outlet": "Reuters (via Al-Monitor)",
+    "title": "World Food Programme cuts aid to 500,000 Palestinians in Gaza, cites funding shortages",
+    "url": "https://www.al-monitor.com/originals/2026/10/world-food-programme-cuts-aid-500000-palestinians-gaza-cites-funding-shortages",
+    "date": "2026-10-19"
+   }
+  ],
+  "hind-rajab-commander-arrest-request": [
+   {
+    "outlet": "Common Dreams",
+    "title": "Tlaib Calls to Arrest Commander of IDF Unit Accused of Killing Hind Rajab as He Travels the US",
+    "url": "https://www.commondreams.org/news/tlaib-arrest-rajab-killer",
+    "date": "2026-10-20"
+   }
+  ],
+  "palestine-action-filton-appeal": [
+   {
+    "outlet": "The National",
+    "title": "Four Palestine Action activists to appeal against terrorism sentences",
+    "url": "https://www.thenationalnews.com/news/uk/2026/09/03/four-palestine-action-activists-to-appeal-terror-sentences/",
+    "date": "2026-09-03"
+   }
+  ],
+  "tribunal-law-october-7-trials": [
+   {
+    "outlet": "Reuters (via Al-Monitor)",
+    "title": "New Israeli law sets military tribunal for Hamas October 7 militants",
+    "url": "https://www.al-monitor.com/originals/2026/05/new-israeli-law-sets-military-tribunal-hamas-october-7-militants",
+    "date": "2026-05-11"
+   }
+  ],
+  "naqab-demolition-wave": [
+   {
+    "outlet": "AFP (via Arab News Pakistan)",
+    "title": "'Holding our ground': Israel demolishes dozens of Bedouin homes",
+    "url": "https://www.arabnews.pk/middle-east/holding-our-ground-israel-demolishes-dozens-of-bedouin-homes-3004028",
+    "date": "2026-10-13"
+   }
+  ],
+  "ihab-diab-death-confirmed": [
+   {
+    "outlet": "Qatar News Agency",
+    "title": "Palestinian Prisoner Death Toll in Israeli Prisons Rises to 328",
+    "url": "https://qna.org.qa/en/News-Area/News/2026-8/9/palestinian-prisoner-death-toll-in-israeli-prisons-rises-to-328",
+    "date": "2026-08-09"
+   }
+  ],
+  "three-years-gaza-toll": [
+   {
+    "outlet": "Bernama (citing WAFA)",
+    "title": "Death Toll From The Aggression On Gaza Rises To 74,389 Fatalities, 175,423 Injured",
+    "url": "https://bernama.com/en/world/news.php?id=2619824",
+    "date": "2026-10-13"
+   }
+  ],
+  "gaza-since-ceasefire-toll": [
+   {
+    "outlet": "Bernama (citing WAFA)",
+    "title": "Death Toll From The Aggression On Gaza Rises To 74,389 Fatalities, 175,423 Injured",
+    "url": "https://bernama.com/en/world/news.php?id=2619824",
+    "date": "2026-10-13"
+   }
+  ],
+  "umm-al-khair-volunteer-deported": [
+   {
+    "outlet": "LBC",
+    "title": "'They put him in a chokehold': Israel deports British activist 'kidnapped by settlers'",
+    "url": "https://www.lbc.co.uk/news/exclusive/chokehold-israel-deports-british-activist-kidnapped-by-settler/",
+    "date": "2026-08-31"
+   }
+  ],
+  "east-jerusalem-schools-strike": [
+   {
+    "outlet": "Ahram Online",
+    "title": "Christian schools in East Jerusalem suspend classes over Israel's refusal to renew entry permits for teachers, staff",
+    "url": "https://english.ahram.org.eg/News/575652.aspx",
+    "date": "2026-08-31"
+   }
+  ],
+  "wma-protest-detained-health-workers": [
+   {
+    "outlet": "Common Dreams",
+    "title": "World Medical Association Urged to Suspend Israel Over Mass Killing of Healthcare Workers, Gaza Genocide",
+    "url": "https://www.commondreams.org/news/world-medical-association-israel",
+    "date": "2026-10-09"
+   }
+  ],
+  "west-bank-100-arrests-in-a-week": [
+   {
+    "outlet": "Middle East Monitor",
+    "title": "Israeli army arrests 33 Palestinians in occupied West Bank, including 2 journalists",
+    "url": "https://www.middleeastmonitor.com/20260910-israeli-army-arrests-33-palestinians-in-occupied-west-bank-including-2-journalists/",
+    "date": "2026-09-10"
+   }
+  ],
+  "children-in-detention-testimonies": [
+   {
+    "outlet": "Al-Quds",
+    "title": "Israeli occupation sentences the Palestinian child prisoner from Jerusalem, Muhammad Zalbani, to 18 years in prison",
+    "url": "https://www.alquds.com/en/posts/151959",
+    "date": "2025-02-16"
+   }
+  ],
+  "jinba-and-az-zaayyem-demolitions": [
+   {
+    "outlet": "Middle East Eye",
+    "title": "Israel displaces hundreds of Palestinians amid wave of demolitions in West Bank",
+    "url": "https://www.middleeasteye.net/news/israel-displaces-dozens-palestinians-amid-wave-masafer-yatta-demolitions",
+    "date": "2026-09-24"
+   }
+  ]
+ },
+ "extra_source_notes": {
+  "hebron-mass-displacement": "UN News cites OCHA: more than 3,000 evacuated since Friday 23 Oct. Reuters' 24 Oct figure (about 1,200, with about 1,300 more at risk) is an earlier count of the same operation.",
+  "olive-harvest-record-attacks": "France 24 relies on OCHA's own count (nearly 200 harvest-linked attacks by 15 Oct vs 185 in all of 2025), so it corroborates the story but is not an independent count.",
+  "at-tur-largest-single-demolition": "UN News is the UN's own newsroom (same family as OCHA). Silwanic is independent but counts 75 displaced, not 69; it confirms a five-storey building demolished at dawn on 6 Oct.",
+  "us-sanctions-the-icc": "HRW confirms the sanctions target the court itself; it does not mention the six-month grace period.",
+  "dana-joudeh-birth-in-detention": "MEMO (via Quds Press) says she gave birth on Monday 14 Sept inside Damon prison; The Intercept says 12 Sept by C-section at Rambam Hospital. Different birth date and place.",
+  "ips-security-inmates-october-2026": "Addameer gives the same 9,265 / 3,101 / 1,419, almost certainly from the same IPS data, so it confirms the figures but is not an independent count. Addameer's own statistics table (5 Oct) gives 9,300.",
+  "margaret-owen-arrested-palestine-action": "The arrest was on 27 Sept 2026 outside the Labour conference in Liverpool, not on 1 Oct (the news.json item date).",
+  "gaza-since-ceasefire-toll": "Bernama gives 1,498 killed since the ceasefire as of 13 Oct, consistent with OCHA's 'more than 1,500' by 22 Oct but not the same figure.",
+  "three-years-gaza-toll": "Bernama (13 Oct) gives 74,389 dead, consistent with 'passes 74,000'.",
+  "wma-protest-detained-health-workers": "Common Dreams confirms the petition (about 6,500 health workers) asking the WMA to suspend the Israeli Medical Association; it does not mention the 81 empty scrubs.",
+  "west-bank-100-arrests-in-a-week": "MEMO confirms one day of the sweep (33 arrests on 10 Sept incl. two journalists and two minors, per the Palestinian Prisoners Media Office) but does not state the 100-in-a-week total.",
+  "children-in-detention-testimonies": "Confirms Mohammed Zalbani's 18-year sentence; does not cover the family's visiting ban.",
+  "jinba-and-az-zaayyem-demolitions": "MEE (citing B'Tselem) counts about 176 displaced in Jinba incl. 85 children, against OCHA's 55. Does not cover Az Za'ayyem.",
+  "east-jerusalem-schools-strike": "Covers the Christian schools' strike over 70+ non-renewed staff permits (from 1 Sept); does not cover the municipal-schools curriculum order.",
+  "twelve-states-settlement-trade-measures": "Confirms the UK ban and a 12-country joint statement but names only six of the 12 states and does not mention the consulate closure.",
+  "tribunal-law-october-7-trials": "Reuters: 93 of 120 MKs backed it; a death sentence triggers an automatic appeal.",
+  "naqab-demolition-wave": "AFP covers about 80 structures (about 400 people) demolished in al-Dahiya near Rahat, which residents tied to the 27 Oct election. It is not the 20-organisation statement itself.",
+  "nicaragua-v-germany-hearings": "ICJ case page: hearings on Germany's preliminary objections on 7, 8, 9 and 10 Sept 2026.",
+  "italy-investigates-katz-flotilla": "Times of Israel gives both 11 (subhead) and 12 (body) officials; 50 Italian complainants."
+ },
+ "explainer_additions": [
+  {
+   "explainer_id": "military-courts",
+   "text": "Israel's other West Bank military court sits at Salem, near Jenin in the north. Officially the Samaria Military Court, it stands on the Israeli side of the separation barrier, opposite the village of Salem inside Israel, in a compound shared with the Civil Administration's Jenin liaison office. Ofer, near Ramallah, is the second.",
+   "source_url": "https://www.machsomwatch.org/?p=5663"
+  },
+  {
+   "explainer_id": "children-in-detention",
+   "text": "Save the Children's 2022 report Isolated found that most detained Palestinian children are questioned without a lawyer or a family member present, one of several basic safeguards it says they are denied.",
+   "source_url": "https://resourcecentre.savethechildren.net/document/isolated-the-impact-of-family-separation-on-palestinian-children-in-military-detention/"
+  },
+  {
+   "explainer_id": "children-in-detention",
+   "text": "UNICEF's March 2013 review of children in Israeli military detention concluded that ill-treatment appears widespread, systematic and institutionalised from arrest through to sentencing.",
+   "source_url": "https://www.jadaliyya.com/Details/28192"
+  }
+ ],
+ "gaps": [
+  "No second source found for: hamoked-gaza-whereabouts-petition-deleted and court-lifts-travel-ban-on-prisoners-wife (HaMoked only), citizenship-revocation-petition (Adalah/ACRI only), adalah-academia-discipline-report, ben-gvir-prison-conditions-policy (no other outlet reports the before/after-filming beatings), unicef-children-killed-since-ceasefire (latest UNICEF figure found is 300+ on 6 Aug 2026; 351 not found), netanyahu-un-attack-on-al-jazeera (Express Tribune covers the speech but not the Al Jazeera remarks).",
+  "Military Order 1651 section 285: search snippets attribute the administrative detention power to Article 285 (Addameer), but addameer.org did not resolve from here, so the page was not opened. Not added; the existing 'sections 284-294' wording (ACRI) stands.",
+  "Children interrogated without parent/lawyer: the UNICEF 2013 parent/lawyer findings are in the PDF, which could not be opened; DCI-Palestine's fact-sheet domain did not resolve, so its often-cited 97% (416 of 429, 2012-2015) is NOT VERIFIED and not included. B'Tselem not checked.",
+  "Al Jazeera pages could not be opened from here (connection reset), so wording in AJ-sourced items was not re-checked.",
+  "Abu Safiya: whether his detention was renewed in late October 2026 is not reported anywhere found.",
+  "972mag, JURIST and PCHR pages were blocked or unreachable; not used."
+ ]
+}

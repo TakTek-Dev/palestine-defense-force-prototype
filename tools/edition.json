@@ -30,6 +30,15 @@
     "label": "Oct 2023"
    },
    {
+    "sentenced": 2313,
+    "remand": 2321,
+    "administrative": 2070,
+    "unlawful_combatants": 105,
+    "total": 6809,
+    "as_of": "2023-11-01",
+    "label": "Nov 2023"
+   },
+   {
     "sentenced": 2188,
     "remand": 2356,
     "administrative": 2873,
@@ -37,6 +46,24 @@
     "total": 7677,
     "as_of": "2023-12-01",
     "label": "Dec 2023"
+   },
+   {
+    "sentenced": 2114,
+    "remand": 2534,
+    "administrative": 3291,
+    "unlawful_combatants": 661,
+    "total": 8600,
+    "as_of": "2024-01-01",
+    "label": "Jan 2024"
+   },
+   {
+    "sentenced": 2084,
+    "remand": 2752,
+    "administrative": 3484,
+    "unlawful_combatants": 606,
+    "total": 8926,
+    "as_of": "2024-02-01",
+    "label": "Feb 2024"
    },
    {
     "sentenced": 2070,
@@ -48,6 +75,24 @@
     "label": "Mar 2024"
    },
    {
+    "sentenced": 2071,
+    "remand": 2731,
+    "administrative": 3661,
+    "unlawful_combatants": 849,
+    "total": 9312,
+    "as_of": "2024-04-01",
+    "label": "Apr 2024"
+   },
+   {
+    "sentenced": 2072,
+    "remand": 2727,
+    "administrative": 3424,
+    "unlawful_combatants": 865,
+    "total": 9088,
+    "as_of": "2024-05-01",
+    "label": "May 2024"
+   },
+   {
     "sentenced": 2070,
     "remand": 2733,
     "administrative": 3410,
@@ -55,6 +100,24 @@
     "total": 9112,
     "as_of": "2024-06-01",
     "label": "Jun 2024"
+   },
+   {
+    "sentenced": 2059,
+    "remand": 2783,
+    "administrative": 3379,
+    "unlawful_combatants": 1402,
+    "total": 9623,
+    "as_of": "2024-07-01",
+    "label": "Jul 2024"
+   },
+   {
+    "sentenced": 2074,
+    "remand": 2791,
+    "administrative": 3432,
+    "unlawful_combatants": 1584,
+    "total": 9881,
+    "as_of": "2024-08-01",
+    "label": "Aug 2024"
    },
    {
     "sentenced": 2061,
@@ -66,6 +129,24 @@
     "label": "Sep 2024"
    },
    {
+    "sentenced": 2046,
+    "remand": 2943,
+    "administrative": 3398,
+    "unlawful_combatants": 1618,
+    "total": 10005,
+    "as_of": "2024-10-01",
+    "label": "Oct 2024"
+   },
+   {
+    "sentenced": 1997,
+    "remand": 3024,
+    "administrative": 3443,
+    "unlawful_combatants": 1627,
+    "total": 10091,
+    "as_of": "2024-11-01",
+    "label": "Nov 2024"
+   },
+   {
     "sentenced": 2003,
     "remand": 2951,
     "administrative": 3428,
@@ -73,6 +154,24 @@
     "total": 10154,
     "as_of": "2024-12-01",
     "label": "Dec 2024"
+   },
+   {
+    "sentenced": 2025,
+    "remand": 2934,
+    "administrative": 3376,
+    "unlawful_combatants": 1886,
+    "total": 10221,
+    "as_of": "2025-01-01",
+    "label": "Jan 2025"
+   },
+   {
+    "sentenced": 1734,
+    "remand": 2941,
+    "administrative": 3369,
+    "unlawful_combatants": 1802,
+    "total": 9846,
+    "as_of": "2025-02-01",
+    "label": "Feb 2025"
    },
    {
     "sentenced": 1486,
@@ -84,6 +183,24 @@
     "label": "Mar 2025"
    },
    {
+    "sentenced": 1471,
+    "remand": 3076,
+    "administrative": 3498,
+    "unlawful_combatants": 1747,
+    "total": 9792,
+    "as_of": "2025-04-01",
+    "label": "Apr 2025"
+   },
+   {
+    "sentenced": 1455,
+    "remand": 3190,
+    "administrative": 3577,
+    "unlawful_combatants": 1846,
+    "total": 10068,
+    "as_of": "2025-05-01",
+    "label": "May 2025"
+   },
+   {
     "sentenced": 1447,
     "remand": 3174,
     "administrative": 3562,
@@ -93,6 +210,24 @@
     "label": "Jun 2025"
    },
    {
+    "sentenced": 1419,
+    "remand": 3260,
+    "administrative": 3629,
+    "unlawful_combatants": 2454,
+    "total": 10762,
+    "as_of": "2025-07-01",
+    "label": "Jul 2025"
+   },
+   {
+    "sentenced": 1459,
+    "remand": 3291,
+    "administrative": 3613,
+    "unlawful_combatants": 2378,
+    "total": 10741,
+    "as_of": "2025-08-01",
+    "label": "Aug 2025"
+   },
+   {
     "sentenced": 1450,
     "remand": 3351,
     "administrative": 3577,
@@ -100,6 +235,24 @@
     "total": 11040,
     "as_of": "2025-09-01",
     "label": "Sep 2025"
+   },
+   {
+    "sentenced": 1461,
+    "remand": 3378,
+    "administrative": 3544,
+    "unlawful_combatants": 2673,
+    "total": 11056,
+    "as_of": "2025-10-01",
+    "label": "Oct 2025"
+   },
+   {
+    "sentenced": 1242,
+    "remand": 3389,
+    "administrative": 3368,
+    "unlawful_combatants": 1205,
+    "total": 9204,
+    "as_of": "2025-11-01",
+    "label": "Nov 2025"
    },
    {
     "sentenced": 1254,
@@ -315,6 +468,12 @@
      "title": "\"Security\" inmates held in prisons inside Israel (monthly IPS figures)",
      "url": "https://hamoked.org/prisoners-charts.php",
      "date": "2026-10-01"
+    },
+    {
+     "outlet": "Addameer",
+     "title": "Three Years of Genocide: New Report by Palestinian Prisoners' Institutions Warns of Unprecedented Escalation Against Political Prisoners",
+     "url": "https://addameer.ps/news/5763",
+     "date": "2026-10-06"
     }
    ],
    "people": [],
@@ -336,7 +495,8 @@
      "label": "sentenced prisoners"
     }
    ],
-   "verified": false,
+   "verified": true,
+   "differ": "Addameer gives the same figures, drawn from the same prison-service data. Its own table of 5 October gives about 9,300.",
    "photo": "ofer-prison-entrance-2017"
   },
   "ben-gvir-films-hassan-salama-cell": {
@@ -356,6 +516,12 @@
      "title": "Palestinians denounce Israeli minister Ben-Gvir's threats against prisoner",
      "url": "https://www.aljazeera.com/news/2026/9/28/palestinians-denounce-israeli-minister-ben-gvirs-threats-against-prisoner",
      "date": "2026-09-28"
+    },
+    {
+     "outlet": "AFP (via Arab News Pakistan)",
+     "title": "Israeli minister fined over video showing him threaten Palestinian inmate",
+     "url": "https://www.arabnews.pk/middle-east/israeli-minister-fined-over-video-showing-him-threaten-palestinian-inmate-3002974",
+     "date": "2026-10-02"
     }
    ],
    "people": [
@@ -369,7 +535,7 @@
      "label": "years Salama has been imprisoned"
     }
    ],
-   "verified": false
+   "verified": true
   },
   "ben-gvir-prison-conditions-policy": {
    "date": "2026-09-09",
@@ -421,6 +587,12 @@
      "title": "Israel arrests 100 Palestinians in a week as West Bank pogroms continue",
      "url": "https://www.aljazeera.com/news/2026/9/10/israel-arrests-100-palestinians-in-a-week-as-west-bank-pogroms-continue",
      "date": "2026-09-10"
+    },
+    {
+     "outlet": "Middle East Monitor",
+     "title": "Israeli army arrests 33 Palestinians in occupied West Bank, including 2 journalists",
+     "url": "https://www.middleeastmonitor.com/20260910-israeli-army-arrests-33-palestinians-in-occupied-west-bank-including-2-journalists/",
+     "date": "2026-09-10"
     }
    ],
    "people": [
@@ -438,7 +610,8 @@
      "label": "West Bank detentions since Oct 2023 (PPS)"
     }
    ],
-   "verified": false,
+   "verified": true,
+   "differ": "Middle East Monitor confirms one day of the sweep, 33 arrests on 10 September, but not the weekly total.",
    "photo": "tulkarm-nablus-street-2024"
   },
   "dana-joudeh-birth-in-detention": {
@@ -458,6 +631,12 @@
      "title": "A C-section in shackles: a Palestinian woman's harrowing birth in Israeli detention",
      "url": "https://theintercept.com/2026/10/10/israel-palestine-prisoner-pregnancy-childbirth/",
      "date": "2026-10-10"
+    },
+    {
+     "outlet": "Middle East Monitor",
+     "title": "Palestinian woman gives birth in Israel's Damon prison following arrest during pregnancy",
+     "url": "https://www.middleeastmonitor.com/20260915-palestinian-woman-gives-birth-in-israels-damon-prison-following-arrest-during-pregnancy/",
+     "date": "2026-09-15"
     }
    ],
    "people": [
@@ -470,7 +649,8 @@
      "label": "between C-section and return to prison"
     }
    ],
-   "verified": false,
+   "verified": true,
+   "differ": "The Intercept reports the birth on 12 September, by caesarean section at Rambam Hospital. Middle East Monitor, via Quds Press, reports it on 14 September inside Damon prison.",
    "photo": "damon-prison-entrance-2017"
   },
   "abu-safiya-still-held-without-charge": {
@@ -496,6 +676,12 @@
      "title": "No end to torture of Gaza doctor Abu Safia in Israeli prison: What to know",
      "url": "https://www.aljazeera.com/news/2026/9/3/no-end-to-torture-of-gaza-doctor-abu-safiya-in-israeli-prison-what-to-know",
      "date": "2026-09-03"
+    },
+    {
+     "outlet": "Middle East Eye",
+     "title": "Hussam Abu Safiya: Abducted Palestinian doctor still subject to torture by Israel",
+     "url": "https://www.middleeasteye.net/news/hussam-abu-safiya-abducted-palestinian-doctor-still-subject-torture-israel",
+     "date": "2026-09-04"
     }
    ],
    "people": [
@@ -518,7 +704,7 @@
      "label": "Palestinian physicians held (US lawmakers)"
     }
    ],
-   "verified": false,
+   "verified": true,
    "photo": "beit-lahia-indonesian-hospital-2025"
   },
   "wma-protest-detained-health-workers": {
@@ -537,6 +723,12 @@
      "title": "Hundreds of doctors demand World Medical Association suspend Israel",
      "url": "https://www.aljazeera.com/news/2026/10/10/hundreds-of-doctors-demand-world-medical-association-suspend-israel",
      "date": "2026-10-10"
+    },
+    {
+     "outlet": "Common Dreams",
+     "title": "World Medical Association Urged to Suspend Israel Over Mass Killing of Healthcare Workers, Gaza Genocide",
+     "url": "https://www.commondreams.org/news/world-medical-association-israel",
+     "date": "2026-10-09"
     }
    ],
    "people": [
@@ -548,7 +740,7 @@
      "label": "named detained health workers"
     }
    ],
-   "verified": false,
+   "verified": true,
    "photo": "gaza-al-shifa-2025"
   },
   "supreme-court-reinstates-arab-lists": {
@@ -647,7 +839,8 @@
      "label": "released to house arrest"
     }
    ],
-   "verified": true
+   "verified": true,
+   "photo": "jerusalem-magistrates-court-2012"
   },
   "hamoked-gaza-whereabouts-petition-deleted": {
    "date": "2026-10-26",
@@ -711,7 +904,8 @@
    ],
    "people": [],
    "figures": [],
-   "verified": false
+   "verified": false,
+   "photo": "allenby-crossing-2019"
   },
   "death-penalty-law-first-test-neveh-tzuf": {
    "date": "2026-09-21",
@@ -764,6 +958,12 @@
      "title": "Urgent petition to Israeli Supreme Court against the Death Penalty Law",
      "url": "https://www.adalah.org/en/content/view/11564",
      "date": "2026-03-31"
+    },
+    {
+     "outlet": "The Jerusalem Post",
+     "title": "High Court begins reviewing death penalty law as Adalah files petition after ACRI challenge",
+     "url": "https://www.jpost.com/israel-news/politics-and-diplomacy/article-891785",
+     "date": "2026-03-31"
     }
    ],
    "people": [
@@ -783,7 +983,7 @@
      "label": "deadline for execution after final ruling"
     }
    ],
-   "verified": false,
+   "verified": true,
    "photo": "jerusalem-supreme-court-arches-2009"
   },
   "tribunal-law-october-7-trials": {
@@ -802,6 +1002,12 @@
      "title": "Israeli Knesset passed the Tribunal Law, establishing a military tribunal empowered to sentence Palestinians to death",
      "url": "https://www.adalah.org/en/content/view/11609",
      "date": "2026-05-12"
+    },
+    {
+     "outlet": "Reuters (via Al-Monitor)",
+     "title": "New Israeli law sets military tribunal for Hamas October 7 militants",
+     "url": "https://www.al-monitor.com/originals/2026/05/new-israeli-law-sets-military-tribunal-hamas-october-7-militants",
+     "date": "2026-05-11"
     }
    ],
    "people": [],
@@ -811,7 +1017,8 @@
      "label": "Knesset vote"
     }
    ],
-   "verified": false
+   "verified": true,
+   "photo": "knesset-jerusalem-2025"
   },
   "citizenship-revocation-petition": {
    "date": "2026-05-01",
@@ -889,7 +1096,8 @@
      "label": "Palestinians injured (OCHA)"
     }
    ],
-   "verified": true
+   "verified": true,
+   "photo": "abu-falah-village-2026"
   },
   "olive-harvest-record-attacks": {
    "date": "2026-10-22",
@@ -914,6 +1122,12 @@
      "title": "Humanitarian Situation Report | 15 October 2026",
      "url": "https://www.ochaopt.org/content/humanitarian-situation-report-15-october-2026",
      "date": "2026-10-15"
+    },
+    {
+     "outlet": "France 24 (The Observers)",
+     "title": "How Israeli settlers wearing keffiyehs are attacking West Bank olive groves",
+     "url": "https://www.france24.com/en/middle-east/20261023-how-israeli-settlers-wearing-keffiyehs-are-attacking-west-bank-olive-groves",
+     "date": "2026-10-23"
     }
    ],
    "people": [],
@@ -935,7 +1149,8 @@
      "label": "settler attacks in 2026"
     }
    ],
-   "verified": false,
+   "verified": true,
+   "differ": "France 24’s figure comes from OCHA’s own count, so it confirms the story rather than adding an independent count.",
    "photo": "qaffin-olive-harvest-2008"
   },
   "at-tur-largest-single-demolition": {
@@ -961,6 +1176,18 @@
      "title": "Humanitarian Situation Report | 22 October 2026",
      "url": "https://www.ochaopt.org/content/humanitarian-situation-report-22-october-2026",
      "date": "2026-10-22"
+    },
+    {
+     "outlet": "UN News",
+     "title": "Israeli demolition in East Jerusalem displaces 69 Palestinians",
+     "url": "https://news.un.org/en/story/2026/10/1168539",
+     "date": "2026-10-06"
+    },
+    {
+     "outlet": "Wadi Hilweh Information Center (Silwanic)",
+     "title": "Details: Al-Tur building demolished and 75 Jerusalemites displaced at dawn",
+     "url": "https://www.silwanic.net/article/news/80078",
+     "date": "2026-10-06"
     }
    ],
    "people": [],
@@ -974,7 +1201,9 @@
      "label": "displaced in East Jerusalem in 2026"
     }
    ],
-   "verified": false
+   "verified": true,
+   "differ": "Silwanic counts 75 people displaced; OCHA counts 69.",
+   "photo": "at-tur-mount-of-olives-2023"
   },
   "khirbet-al-tabban-razed": {
    "date": "2026-09-02",
@@ -1034,6 +1263,12 @@
      "title": "Humanitarian Situation Report | 2 October 2026",
      "url": "https://www.ochaopt.org/content/humanitarian-situation-report-2-october-2026",
      "date": "2026-10-02"
+    },
+    {
+     "outlet": "Middle East Eye",
+     "title": "Israel displaces hundreds of Palestinians amid wave of demolitions in West Bank",
+     "url": "https://www.middleeasteye.net/news/israel-displaces-dozens-palestinians-amid-wave-masafer-yatta-demolitions",
+     "date": "2026-09-24"
     }
    ],
    "people": [],
@@ -1051,7 +1286,8 @@
      "label": "displaced in Masafer Yatta over 15 years"
     }
    ],
-   "verified": false,
+   "verified": true,
+   "differ": "B’Tselem, quoted by Middle East Eye, counts about 176 people displaced in Jinba, 85 of them children; OCHA counts 55.",
    "photo": "masafer-yatta-al-fakhit-2025"
   },
   "jalud-family-blocked-from-return": {
@@ -1086,7 +1322,8 @@
      "label": "settlers in the riot (army figure)"
     }
    ],
-   "verified": true
+   "verified": true,
+   "photo": "jalud-village-2026"
   },
   "hebron-mass-displacement": {
    "date": "2026-10-26",
@@ -1111,6 +1348,18 @@
      "title": "More than 2,000 forced from homes in Hebron amid Israel's West Bank raids",
      "url": "https://www.aljazeera.com/news/2026/10/24/more-than-2000-forced-from-homes-in-hebron-amid-israels-west-bank-raids",
      "date": "2026-10-24"
+    },
+    {
+     "outlet": "UN News",
+     "title": "West Bank: Hebron crackdown displaces thousands, Türk warns of ethnic cleansing",
+     "url": "https://news.un.org/en/story/2026/10/1168672",
+     "date": "2026-10-26"
+    },
+    {
+     "outlet": "Reuters (via Al-Monitor)",
+     "title": "Around 1,200 Palestinians are displaced in Hebron as Israel begins military operation",
+     "url": "https://www.al-monitor.com/originals/2026/10/around-1200-palestinians-are-displaced-hebron-israel-begins-military-operation",
+     "date": "2026-10-24"
     }
    ],
    "people": [
@@ -1129,7 +1378,8 @@
      "label": "detained in four days (PPS)"
     }
    ],
-   "verified": false,
+   "verified": true,
+   "differ": "OCHA, quoted by UN News, counts more than 3,000 people evacuated since 23 October. Reuters’ figure of about 1,200, with 1,300 more at risk, came a day into the same operation.",
    "photo": "hebron-shuhada-street-2016"
   },
   "naqab-demolition-wave": {
@@ -1148,11 +1398,18 @@
      "title": "Mass wave of home demolitions in the Naqab ahead of Israeli elections",
      "url": "https://www.adalah.org/en/content/view/11721",
      "date": "2026-10-20"
+    },
+    {
+     "outlet": "AFP (via Arab News Pakistan)",
+     "title": "'Holding our ground': Israel demolishes dozens of Bedouin homes",
+     "url": "https://www.arabnews.pk/middle-east/holding-our-ground-israel-demolishes-dozens-of-bedouin-homes-3004028",
+     "date": "2026-10-13"
     }
    ],
    "people": [],
    "figures": [],
-   "verified": false
+   "verified": true,
+   "photo": "al-araqib-shelter-2025"
   },
   "khan-al-ahmar-orders-revived": {
    "date": "2026-10-05",
@@ -1171,6 +1428,12 @@
      "title": "This village has been fighting Israel's demolition orders for years. It may be on its last stand.",
      "url": "https://www.thenation.com/article/world/khan-al-ahmar-west-bank-settlements-destruction/",
      "date": "2026-10-05"
+    },
+    {
+     "outlet": "Peace Now",
+     "title": "Minister Smotrich Orders the Evacuation of Khan al-Ahmar as Part of Israeli Takeover of the Central West Bank and Construction in E1",
+     "url": "https://peacenow.org.il/en/minister-smotrich-the-evacuation-of-khan-al-ahmare1",
+     "date": "2026-05-19"
     }
    ],
    "people": [
@@ -1187,7 +1450,7 @@
      "label": "E1 Bedouin villages slated for removal"
     }
    ],
-   "verified": false,
+   "verified": true,
    "photo": "khan-al-ahmar-school-2014"
   },
   "gaza-since-ceasefire-toll": {
@@ -1213,6 +1476,12 @@
      "title": "Humanitarian Situation Report | 15 October 2026",
      "url": "https://www.ochaopt.org/content/humanitarian-situation-report-15-october-2026",
      "date": "2026-10-15"
+    },
+    {
+     "outlet": "Bernama (citing WAFA)",
+     "title": "Death Toll From The Aggression On Gaza Rises To 74,389 Fatalities, 175,423 Injured",
+     "url": "https://bernama.com/en/world/news.php?id=2619824",
+     "date": "2026-10-13"
     }
    ],
    "people": [],
@@ -1226,7 +1495,8 @@
      "label": "people reached with food aid, Sep"
     }
    ],
-   "verified": false,
+   "verified": true,
+   "differ": "Bernama gives 1,498 killed as of 13 October; OCHA’s “more than 1,500” is from 22 October.",
    "photo": "gaza-displacement-2025"
   },
   "yellow-line-moves-west": {
@@ -1267,7 +1537,8 @@
      "label": "verified deaths near the line to end-July"
     }
    ],
-   "verified": true
+   "verified": true,
+   "photo": "shujaiyya-ibn-uthman-2017"
   },
   "wfp-cuts-gaza-food": {
    "date": "2026-10-19",
@@ -1285,6 +1556,12 @@
      "title": "WFP cuts aid to 500,000 Palestinians in Gaza amid funding shortages",
      "url": "https://www.aljazeera.com/news/2026/10/19/wfp-cuts-aid-to-500000-palestinians-in-gaza-amid-funding-shortages",
      "date": "2026-10-19"
+    },
+    {
+     "outlet": "Reuters (via Al-Monitor)",
+     "title": "World Food Programme cuts aid to 500,000 Palestinians in Gaza, cites funding shortages",
+     "url": "https://www.al-monitor.com/originals/2026/10/world-food-programme-cuts-aid-500000-palestinians-gaza-cites-funding-shortages",
+     "date": "2026-10-19"
     }
    ],
    "people": [],
@@ -1298,7 +1575,7 @@
      "label": "funding gap, six months"
     }
    ],
-   "verified": false
+   "verified": true
   },
   "ihab-diab-death-confirmed": {
    "date": "2026-08-10",
@@ -1317,6 +1594,12 @@
      "title": "Israel confirms death of Palestinian detainee, nearly two years late",
      "url": "https://www.aljazeera.com/news/2026/8/10/israel-confirms-death-of-palestinian-detainee-nearly-two-years-late",
      "date": "2026-08-10"
+    },
+    {
+     "outlet": "Qatar News Agency",
+     "title": "Palestinian Prisoner Death Toll in Israeli Prisons Rises to 328",
+     "url": "https://qna.org.qa/en/News-Area/News/2026-8/9/palestinian-prisoner-death-toll-in-israeli-prisons-rises-to-328",
+     "date": "2026-08-09"
     }
    ],
    "people": [
@@ -1332,7 +1615,7 @@
      "label": "of them from Gaza"
     }
    ],
-   "verified": false
+   "verified": true
   },
   "three-years-gaza-toll": {
    "date": "2026-10-07",
@@ -1356,6 +1639,12 @@
      "title": "Israeli forces kill at least five people in Gaza, including 7-year-old girl",
      "url": "https://www.aljazeera.com/news/2026/10/26/israeli-forces-kill-at-least-five-people-in-gaza-including-7-year-old-girl",
      "date": "2026-10-26"
+    },
+    {
+     "outlet": "Bernama (citing WAFA)",
+     "title": "Death Toll From The Aggression On Gaza Rises To 74,389 Fatalities, 175,423 Injured",
+     "url": "https://bernama.com/en/world/news.php?id=2619824",
+     "date": "2026-10-13"
     }
    ],
    "people": [],
@@ -1369,7 +1658,7 @@
      "label": "children killed"
     }
    ],
-   "verified": false,
+   "verified": true,
    "photo": "khan-younis-ruins-2023"
   },
   "hind-rajab-commander-arrest-request": {
@@ -1388,6 +1677,12 @@
      "title": "Rashida Tlaib demands arrest of Israeli soldier tied to Hind Rajab killing",
      "url": "https://www.aljazeera.com/news/2026/10/20/rashida-tlaib-demands-arrest-of-israeli-soldier-linked-to-hind-rajab-death",
      "date": "2026-10-20"
+    },
+    {
+     "outlet": "Common Dreams",
+     "title": "Tlaib Calls to Arrest Commander of IDF Unit Accused of Killing Hind Rajab as He Travels the US",
+     "url": "https://www.commondreams.org/news/tlaib-arrest-rajab-killer",
+     "date": "2026-10-20"
     }
    ],
    "people": [
@@ -1396,7 +1691,7 @@
     "Rashida Tlaib"
    ],
    "figures": [],
-   "verified": false
+   "verified": true
   },
   "pps-2000-children-detained": {
    "date": "2026-10-15",
@@ -1421,6 +1716,12 @@
      "title": "Update on the number of Palestinian political prisoners in Israeli occupation prisons as of the start of September 2026",
      "url": "https://addameer.ps/news/5746",
      "date": "2026-09-16"
+    },
+    {
+     "outlet": "Middle East Monitor",
+     "title": "Palestinian Prisoners' Club says Israel has detained over 2,000 children since October 2023",
+     "url": "https://www.middleeastmonitor.com/20261015-palestinian-prisoners-club-says-israel-has-detained-over-2000-children-since-october-2023/",
+     "date": "2026-10-15"
     }
    ],
    "people": [
@@ -1459,6 +1760,12 @@
      "title": "What Palestinian children endure in Israeli detention",
      "url": "https://www.aljazeera.com/features/2026/9/23/inside-israels-prisons-what-palestinian-children-say-they-endure-in-deten",
      "date": "2026-09-23"
+    },
+    {
+     "outlet": "Al-Quds",
+     "title": "Israeli occupation sentences the Palestinian child prisoner from Jerusalem, Muhammad Zalbani, to 18 years in prison",
+     "url": "https://www.alquds.com/en/posts/151959",
+     "date": "2025-02-16"
     }
    ],
    "people": [
@@ -1475,7 +1782,7 @@
      "label": "sentence"
     }
    ],
-   "verified": false,
+   "verified": true,
    "photo": "ofer-prison-2012"
   },
   "unicef-children-killed-since-ceasefire": {
@@ -1522,6 +1829,12 @@
      "title": "Jerusalem schools strike after Israel enforces curriculum and bans teachers",
      "url": "https://www.aljazeera.com/news/2026/9/1/jerusalem-schools-strike-after-israel-enforces-curriculum-and-bans-teachers",
      "date": "2026-09-01"
+    },
+    {
+     "outlet": "Ahram Online",
+     "title": "Christian schools in East Jerusalem suspend classes over Israel's refusal to renew entry permits for teachers, staff",
+     "url": "https://english.ahram.org.eg/News/575652.aspx",
+     "date": "2026-08-31"
     }
    ],
    "people": [
@@ -1533,7 +1846,8 @@
      "label": "students on the Israeli curriculum"
     }
    ],
-   "verified": false
+   "verified": true,
+   "photo": "sur-baher-school-2022"
   },
   "umm-al-khair-volunteer-deported": {
    "date": "2026-09-07",
@@ -1551,13 +1865,19 @@
      "title": "Israel deports British activist who protected Palestinian children",
      "url": "https://www.aljazeera.com/news/2026/9/7/israel-deports-british-activist-who-protected-palestinian-children",
      "date": "2026-09-07"
+    },
+    {
+     "outlet": "LBC",
+     "title": "'They put him in a chokehold': Israel deports British activist 'kidnapped by settlers'",
+     "url": "https://www.lbc.co.uk/news/exclusive/chokehold-israel-deports-british-activist-kidnapped-by-settler/",
+     "date": "2026-08-31"
     }
    ],
    "people": [
     "Finn Joughin"
    ],
    "figures": [],
-   "verified": false,
+   "verified": true,
    "photo": "umm-al-kheir-outpost-2025"
   },
   "dcip-forced-to-close": {
@@ -1597,7 +1917,8 @@
      "label": "in administrative detention"
     }
    ],
-   "verified": true
+   "verified": true,
+   "photo": "al-bireh-downtown-2026"
   },
   "un-coi-west-bank-crimes-against-humanity": {
    "date": "2026-10-26",
@@ -1616,6 +1937,12 @@
      "title": "UN panel accuses Israel of 'extermination' in West Bank, genocide in Gaza",
      "url": "https://www.aljazeera.com/news/2026/10/26/israel-committing-crimes-against-humanity-in-occupied-west-bank-un",
      "date": "2026-10-26"
+    },
+    {
+     "outlet": "Haaretz (with The Associated Press)",
+     "title": "UN Inquiry Finds Israel Committed Crimes Against Humanity in West Bank",
+     "url": "https://www.haaretz.com/israel-news/israel-security/2026-10-26/ty-article/un-inquiry-accuses-israel-of-committing-crimes-against-humanity-in-west-bank/000001a1-78e5-dbdb-a7b1-f9e768690000",
+     "date": "2026-10-26"
     }
    ],
    "people": [
@@ -1627,7 +1954,8 @@
      "label": "killed in West Bank air strikes since Oct 2023"
     }
    ],
-   "verified": false
+   "verified": true,
+   "photo": "geneva-human-rights-council-2015"
   },
   "twelve-states-settlement-trade-measures": {
    "date": "2026-09-08",
@@ -1645,6 +1973,12 @@
      "title": "UK, France among 12 states backing sanctions on illegal Israeli settlements",
      "url": "https://www.aljazeera.com/news/2026/9/8/uk-announces-sanctions-on-illegal-israeli-settlements",
      "date": "2026-09-08"
+    },
+    {
+     "outlet": "Egyptian Streets",
+     "title": "UK Announces Import Ban on Goods From Israeli Settlements in West Bank",
+     "url": "https://egyptianstreets.com/2026/09/08/uk-announces-import-ban-on-goods-from-israeli-settlements-in-west-bank/",
+     "date": "2026-09-08"
     }
    ],
    "people": [
@@ -1656,7 +1990,8 @@
      "label": "states backing settlement trade curbs"
     }
    ],
-   "verified": false
+   "verified": true,
+   "photo": "barkan-industrial-zone-2016"
   },
   "un-settlement-business-database-214": {
    "date": "2026-09-25",
@@ -1674,6 +2009,12 @@
      "title": "UN expands list of firms involved in illegal Israeli settlement activities",
      "url": "https://www.aljazeera.com/news/2026/9/25/un-expands-list-of-firms-involved-in-illegal-israeli-settlement-activities",
      "date": "2026-09-25"
+    },
+    {
+     "outlet": "AFP (via JusticeInfo.net)",
+     "title": "UN identifies 214 firms linked to Israeli settlements",
+     "url": "https://www.justiceinfo.net/en?p=165981",
+     "date": "2026-09-25"
     }
    ],
    "people": [],
@@ -1687,7 +2028,8 @@
      "label": "added in 2026"
     }
    ],
-   "verified": false
+   "verified": true,
+   "photo": "geneva-palais-wilson-2023"
   },
   "us-sanctions-the-icc": {
    "date": "2026-10-09",
@@ -1718,6 +2060,12 @@
      "title": "ICC issues arrest warrant for Israeli PM Netanyahu for 'war crimes' in Gaza",
      "url": "https://www.aljazeera.com/news/2024/11/21/icc-issues-arrest-warrant-for-israeli-pm-netanyahu-for-war-crimes-in-gaza",
      "date": "2024-11-21"
+    },
+    {
+     "outlet": "Human Rights Watch",
+     "title": "US Sanctions International Criminal Court",
+     "url": "https://www.hrw.org/news/2026/10/09/us-sanctions-international-criminal-court",
+     "date": "2026-10-09"
     }
    ],
    "people": [
@@ -1731,7 +2079,7 @@
      "label": "grace period"
     }
    ],
-   "verified": false,
+   "verified": true,
    "photo": "hague-icc-dunes-2026"
   },
   "icc-wins-sakharov-prize": {
@@ -1750,6 +2098,12 @@
      "title": "US-sanctioned ICC wins Sakharov Prize, EU's top human rights award",
      "url": "https://www.aljazeera.com/news/2026/10/22/us-sanctioned-icc-wins-sakharov-prize-eus-top-human-rights-award",
      "date": "2026-10-22"
+    },
+    {
+     "outlet": "Human Rights Watch",
+     "title": "ICC Wins EU Parliament's Sakharov Prize",
+     "url": "https://www.hrw.org/news/2026/10/22/icc-wins-eu-parliaments-sakharov-prize",
+     "date": "2026-10-22"
     }
    ],
    "people": [
@@ -1758,7 +2112,7 @@
     "Navi Pillay"
    ],
    "figures": [],
-   "verified": false,
+   "verified": true,
    "photo": "hague-icc-2024"
   },
   "nicaragua-v-germany-hearings": {
@@ -1777,13 +2131,19 @@
      "title": "Nicaragua urges ICJ to reject Germany's bid to throw out Gaza genocide case",
      "url": "https://www.aljazeera.com/news/2026/9/8/nicaragua-urges-icj-to-reject-germanys-bid-to-throw-out-gaza-genocide-case",
      "date": "2026-09-08"
+    },
+    {
+     "outlet": "International Court of Justice",
+     "title": "Nicaragua v. Germany: preliminary objections (case page, public hearings 7-10 September 2026)",
+     "url": "https://icj-cij.org/case/193/preliminary-objections",
+     "date": "2026-09-10"
     }
    ],
    "people": [
     "Julia Monar"
    ],
    "figures": [],
-   "verified": false,
+   "verified": true,
    "photo": "hague-peace-palace-icj-2024"
   },
   "colombia-withdraws-icj-intervention": {
@@ -1853,7 +2213,8 @@
     "Bernard Baudoux"
    ],
    "figures": [],
-   "verified": true
+   "verified": true,
+   "photo": "taybeh-village-2018"
   },
   "italy-investigates-katz-flotilla": {
    "date": "2026-10-16",
@@ -1871,6 +2232,12 @@
      "title": "Italy probes Israel's Katz over abuse, sexual assault of flotilla activists",
      "url": "https://www.aljazeera.com/news/2026/10/16/italy-probes-israels-katz-over-abuse-sexual-assault-of-flotilla-activists",
      "date": "2026-10-16"
+    },
+    {
+     "outlet": "The Times of Israel (with Reuters)",
+     "title": "Italy names Israeli defense minister, IDF chief, others in probe of flotilla activists' treatment",
+     "url": "https://www.timesofisrael.com/italy-names-israeli-defense-minister-idf-chief-others-in-probe-of-flotilla-activists-treatment/amp/",
+     "date": "2026-10-16"
     }
    ],
    "people": [
@@ -1884,7 +2251,8 @@
      "label": "Israeli officials under investigation"
     }
    ],
-   "verified": false
+   "verified": true,
+   "differ": "The Times of Israel gives both 11 and 12 officials under investigation."
   },
   "addameer-office-raided": {
    "date": "2026-10-13",
@@ -1902,13 +2270,19 @@
      "title": "Israeli forces raid Palestinian NGOs in occupied West Bank",
      "url": "https://www.aljazeera.com/news/2026/10/13/israeli-forces-raid-palestinian-ngos-and-hospital-in-occupied-west-bank",
      "date": "2026-10-13"
+    },
+    {
+     "outlet": "AFP (via France 24)",
+     "title": "Palestinian officials say Israeli army wounds two in Ramallah raid",
+     "url": "https://www.france24.com/en/live-news/20261013-palestinian-officials-say-israeli-army-wounds-two-in-ramallah-raid",
+     "date": "2026-10-13"
     }
    ],
    "people": [
     "Nida Ibrahim"
    ],
    "figures": [],
-   "verified": false
+   "verified": true
   },
   "adalah-academia-discipline-report": {
    "date": "2026-09-07",
@@ -1943,7 +2317,8 @@
      "label": "expulsions or long suspensions"
     }
    ],
-   "verified": false
+   "verified": false,
+   "photo": "mount-scopus-campus-2025"
   },
   "netanyahu-un-attack-on-al-jazeera": {
    "date": "2026-09-25",
@@ -1967,7 +2342,8 @@
     "Benjamin Netanyahu"
    ],
    "figures": [],
-   "verified": false
+   "verified": false,
+   "photo": "unga-hall-2024"
   },
   "brad-lander-olive-volunteers-detained": {
    "date": "2026-10-21",
@@ -1985,6 +2361,12 @@
      "title": "US congressional candidate Brad Lander detained in West Bank",
      "url": "https://www.aljazeera.com/news/2026/10/21/us-congressional-candidate-brad-lander-freed-after-west-bank-detention",
      "date": "2026-10-21"
+    },
+    {
+     "outlet": "NPR (via KUOW)",
+     "title": "Israel detains then frees dozens of Americans, including Congress nominee, in West Bank",
+     "url": "https://www.kuow.org/npr-news/2026-10-21/israel-detains-dozens-of-americans-including-a-congressional-candidate-in-west-bank",
+     "date": "2026-10-21"
     }
    ],
    "people": [
@@ -1996,7 +2378,8 @@
      "label": "volunteers detained"
     }
    ],
-   "verified": false
+   "verified": true,
+   "photo": "nahalin-village-2015"
   },
   "margaret-owen-arrested-palestine-action": {
    "date": "2026-10-01",
@@ -2014,6 +2397,12 @@
      "title": "Jewish human rights barrister, 94, arrested for supporting Palestine Action",
      "url": "https://www.aljazeera.com/news/2026/10/1/jewish-human-rights-barrister-94-arrested-for-supporting-palestine-action",
      "date": "2026-10-01"
+    },
+    {
+     "outlet": "openDemocracy",
+     "title": "At 94, Margaret Owen was proud to be arrested for Gaza",
+     "url": "https://www.opendemocracy.net/at-94-margaret-owen-was-proud-to-be-arrested-for-gaza/",
+     "date": "2026-10-09"
     }
    ],
    "people": [
@@ -2025,7 +2414,8 @@
      "label": "age"
     }
    ],
-   "verified": false
+   "verified": true,
+   "differ": "She was arrested on 27 September outside the Labour Party conference in Liverpool; this page was filed on 1 October."
   },
   "palestine-action-filton-appeal": {
    "date": "2026-09-03",
@@ -2043,6 +2433,12 @@
      "title": "Four imprisoned Palestine Action activists appeal 'terrorism' sentences",
      "url": "https://www.aljazeera.com/news/2026/9/3/four-imprisoned-palestine-action-activists-appeal-terrorism-sentences",
      "date": "2026-09-03"
+    },
+    {
+     "outlet": "The National",
+     "title": "Four Palestine Action activists to appeal against terrorism sentences",
+     "url": "https://www.thenationalnews.com/news/uk/2026/09/03/four-palestine-action-activists-to-appeal-terror-sentences/",
+     "date": "2026-09-03"
     }
    ],
    "people": [
@@ -2053,7 +2449,8 @@
     "Shahd Hammouri"
    ],
    "figures": [],
-   "verified": false
+   "verified": true,
+   "photo": "royal-courts-of-justice-2016"
   }
  },
  "by_date": [
@@ -2177,7 +2574,8 @@
    "stories": [
     "abu-safiya-still-held-without-charge",
     "wma-protest-detained-health-workers"
-   ]
+   ],
+   "check_note": "Still held under the Unlawful Combatants Law with no charge; no development after the 6 Oct 2026 congressional letter found. Amnesty says the Supreme Court's 16 June 2026 ruling upheld his detention until at least October 2026, and Front Line Defenders / Democracy Now report a six-month extension on 28 April 2026, so a renewal decision may fall around now, but none was found in reporting (NOT VERIFIED)."
   },
   {
    "id": "bushra-al-tawil",
@@ -2196,6 +2594,11 @@
      "date": "2026-10",
      "event": "PPS, Addameer and the Detainees Commission report 46 days in isolation and blocked lawyer visits",
      "source_url": "https://trtworld.com/article/fdd3d4647415"
+    },
+    {
+     "date": "2026-10-12",
+     "event": "PPS reports her administrative detention extended by a further four months; about 50 days in solitary confinement, lawyer visits blocked by repeated transfers",
+     "source_url": "https://english.palinfo.com/news/2026/10/13/371923/"
     }
    ],
    "sources": [
@@ -2207,9 +2610,10 @@
     }
    ],
    "photo_hint": null,
-   "figure": "46",
-   "figure_label": "days in isolation, reported in October 2026",
-   "stories": []
+   "figure": "~50",
+   "figure_label": "days in solitary; order extended four months on 12 Oct 2026",
+   "stories": [],
+   "check_note": "Source is the Palestinian Information Center (13 Oct) relaying a PPS statement made on Monday 12 Oct. Partisan outlet; no Israeli comment found."
   },
   {
    "id": "ihab-diab",
@@ -2297,6 +2701,11 @@
      "source_url": "https://www.aljazeera.com/features/2026/9/23/inside-israels-prisons-what-palestinian-children-say-they-endure-in-deten"
     },
     {
+     "date": "2025-02-16",
+     "event": "Jerusalem court sentences him to 18 years and 300,000 shekels compensation (date of report)",
+     "source_url": "https://www.alquds.com/en/posts/151959"
+    },
+    {
      "date": "2026-09-23",
      "event": "Family describes two years without visits",
      "source_url": "https://www.aljazeera.com/features/2026/9/23/inside-israels-prisons-what-palestinian-children-say-they-endure-in-deten"
@@ -2315,13 +2724,14 @@
    "figure_label": "years’ sentence; arrested at 13",
    "stories": [
     "children-in-detention-testimonies"
-   ]
+   ],
+   "check_note": "No development after 23 Sept 2026 found. Missing from the timeline: Al-Quds (16 Feb 2025) reported the Jerusalem ('Central') court sentenced him to 18 years plus 300,000 shekels compensation; arrest date given as 13 Feb 2023."
   },
   {
    "id": "dana-joudeh",
    "title": "Dana Joudeh, administrative detainee who gave birth in custody",
    "kind": "person",
-   "status": "administrative",
+   "status": "released",
    "summary": "Held without charge, the Nablus woman gave birth by C-section at Rambam Hospital on 12 September 2026 and was returned to prison two days later. She was due for release on 15 September; her newborn was later treated in Ramallah.",
    "place": "Damon Prison; Rambam Hospital",
    "timeline": [
@@ -2332,12 +2742,7 @@
     },
     {
      "date": "2026-09-14",
-     "event": "Returned to prison",
-     "source_url": "https://theintercept.com/2026/10/10/israel-palestine-prisoner-pregnancy-childbirth/"
-    },
-    {
-     "date": "2026-09-15",
-     "event": "Scheduled release date",
+     "event": "Taken back to prison to process her release, and released the same day with her baby",
      "source_url": "https://theintercept.com/2026/10/10/israel-palestine-prisoner-pregnancy-childbirth/"
     }
    ],
@@ -2351,11 +2756,12 @@
    ],
    "photo_hint": null,
    "figure": "2",
-   "figure_label": "days after a caesarean birth, returned to prison",
+   "figure_label": "days after a caesarean birth, released (14 Sep 2026)",
    "photo": "damon-prison-2016",
    "stories": [
     "dana-joudeh-birth-in-detention"
-   ]
+   ],
+   "check_note": "The Intercept: release was set for 15 Sept, but on 14 Sept, two days after the 12 Sept C-section at Rambam Hospital, she and the baby were taken back to prison to process her release, and she was released that day. The news.json timeline entry 'Returned to prison' (14 Sept) should read 'Taken back to prison to process release; released the same day', and the 15 Sept 'scheduled release' entry is superseded. Conflict: Middle East Monitor (15 Sept, via Quds Press) says she gave birth on Monday (14 Sept) inside Damon prison and was due for release on Tuesday; it gives her home as Iraq al-Tayeh, Nablus governorate. The Intercept's account is later and more detailed."
   },
   {
    "id": "mohammad-al-halaseh",
@@ -2396,7 +2802,8 @@
    "stories": [
     "citizenship-revocation-petition"
    ],
-   "kind_note": "petition"
+   "kind_note": "petition",
+   "check_note": "No hearing or ruling found after Adalah's 30 Apr 2026 petition; only Adalah/ACRI material covers it."
   },
   {
    "id": "masafer-yatta-firing-zone-918",
@@ -2410,6 +2817,11 @@
      "date": "2026-06",
      "event": "High Court rejects al-Tabban residents' petitions against demolition orders",
      "source_url": "https://pchrgaza.org/?p=38954"
+    },
+    {
+     "date": "2026-09",
+     "event": "All five homes in Khirbet al-Fakhit demolished, 32 people displaced (about a week after 2 Sept; exact day not given)",
+     "source_url": "https://www.middleeasteye.net/news/israel-displaces-dozens-palestinians-amid-wave-masafer-yatta-demolitions"
     },
     {
      "date": "2026-09-02",
@@ -2460,7 +2872,8 @@
    "stories": [
     "khirbet-al-tabban-razed",
     "jinba-and-az-zaayyem-demolitions"
-   ]
+   ],
+   "check_note": "No event after the 15 Oct OCHA entry found. Discrepancy: for Jinba on 23 Sept, Middle East Eye (24 Sept, citing B'Tselem) reports 24 residential and 16 agricultural structures demolished and about 176 people displaced incl. 85 children, against OCHA's 55 people. MEE also reports all five homes in Khirbet al-Fakhit demolished 'a week' after 2 Sept, displacing 32 people."
   },
   {
    "id": "sarhan-family-batn-al-hawa",
@@ -2548,7 +2961,8 @@
    "photo": "khan-al-ahmar-2025",
    "stories": [
     "khan-al-ahmar-orders-revived"
-   ]
+   ],
+   "check_note": "No demolition or court development found after The Nation (5 Oct 2026). Exact date of Smotrich's directive: 19 May 2026 (Peace Now). A Times of Israel item about the government backing away from forced eviction dates from 2023, not 2026."
   },
   {
    "id": "tubasi-family-jalud",
@@ -2641,7 +3055,8 @@
    "stories": [
     "death-penalty-law-first-test-neveh-tzuf",
     "death-penalty-law-petitions-pending"
-   ]
+   ],
+   "check_note": "Adalah's case page still lists only the 30 and 31 March 2026 steps; no report of the State's response, a hearing or a ruling found. Jerusalem Post (31 Mar) confirms Justice Yechiel Kasher declined to freeze the law, so it is in force while the petitions are pending."
   }
  ],
  "guides": [
@@ -2692,6 +3107,10 @@
     {
      "text": "A separate 2026 law created a special military tribunal for people accused over 7 October 2023, also empowered to impose death.",
      "source_url": "https://www.adalah.org/en/content/view/11609"
+    },
+    {
+     "text": "Israel's other West Bank military court sits at Salem, near Jenin in the north. Officially the Samaria Military Court, it stands on the Israeli side of the separation barrier, opposite the village of Salem inside Israel, in a compound shared with the Civil Administration's Jenin liaison office. Ofer, near Ramallah, is the second.",
+     "source_url": "https://www.machsomwatch.org/?p=5663"
     }
    ]
   },
@@ -2750,6 +3169,14 @@
     {
      "text": "At the UN Human Rights Council in June 2026, Defence for Children International said at least 350 children were in IPS custody, many held on secret files and renewed at the last minute.",
      "source_url": "https://defenceforchildren.org/arbitrary-detention-of-palestinian-children-hrc-62-statement-2/"
+    },
+    {
+     "text": "Save the Children's 2022 report Isolated found that most detained Palestinian children are questioned without a lawyer or a family member present, one of several basic safeguards it says they are denied.",
+     "source_url": "https://resourcecentre.savethechildren.net/document/isolated-the-impact-of-family-separation-on-palestinian-children-in-military-detention/"
+    },
+    {
+     "text": "UNICEF's March 2013 review of children in Israeli military detention concluded that ill-treatment appears widespread, systematic and institutionalised from arrest through to sentencing.",
+     "source_url": "https://www.jadaliyya.com/Details/28192"
     }
    ]
   },
@@ -2923,22 +3350,22 @@
     "west-bank-100-arrests-in-a-week"
    ],
    "courts": [
+    "settler-suspects-released-to-house-arrest",
+    "court-lifts-travel-ban-on-prisoners-wife",
     "supreme-court-reinstates-arab-lists",
-    "death-penalty-law-first-test-neveh-tzuf",
-    "citizenship-revocation-petition",
-    "death-penalty-law-petitions-pending"
+    "death-penalty-law-first-test-neveh-tzuf"
    ],
    "land": [
-    "khan-al-ahmar-orders-revived",
-    "jinba-and-az-zaayyem-demolitions",
-    "khirbet-al-tabban-razed",
-    "naqab-demolition-wave"
+    "naqab-demolition-wave",
+    "abu-falah-harvest-attack",
+    "at-tur-largest-single-demolition",
+    "khan-al-ahmar-orders-revived"
    ],
    "international": [
     "icc-wins-sakharov-prize",
-    "colombia-withdraws-icj-intervention",
-    "nicaragua-v-germany-hearings",
-    "eu-condemns-attack-on-diplomats"
+    "eu-condemns-attack-on-diplomats",
+    "un-settlement-business-database-214",
+    "colombia-withdraws-icj-intervention"
    ],
    "children": [
     "unicef-children-killed-since-ceasefire",
@@ -2948,15 +3375,15 @@
    ],
    "gaza": [
     "gaza-since-ceasefire-toll",
+    "yellow-line-moves-west",
     "three-years-gaza-toll",
-    "hind-rajab-commander-arrest-request",
-    "wfp-cuts-gaza-food"
+    "hind-rajab-commander-arrest-request"
    ],
    "speech": [
     "brad-lander-olive-volunteers-detained",
-    "addameer-office-raided",
-    "margaret-owen-arrested-palestine-action",
-    "netanyahu-un-attack-on-al-jazeera"
+    "netanyahu-un-attack-on-al-jazeera",
+    "adalah-academia-discipline-report",
+    "palestine-action-filton-appeal"
    ]
   }
  }

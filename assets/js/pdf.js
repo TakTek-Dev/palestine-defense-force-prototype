@@ -102,8 +102,16 @@
   /* ---------------------------------------------------------- copy link, print */
   $$('[data-copy]').forEach(b => b.addEventListener('click', async () => {
     const lab = $('span', b), was = lab.textContent;
-    try { await navigator.clipboard.writeText(b.dataset.copy); lab.textContent = 'Link copied'; }
-    catch (e) { lab.textContent = 'Copy failed'; }
+    // the Clipboard API is refused in some embedded and older browsers: fall back to a selected field
+    const legacy = () => {
+      const t = document.createElement('textarea');
+      t.value = b.dataset.copy; t.setAttribute('readonly', ''); t.style.cssText = 'position:fixed;opacity:0';
+      document.body.appendChild(t); t.select();
+      const ok = document.execCommand('copy'); t.remove(); return ok;
+    };
+    let ok = false;
+    try { await navigator.clipboard.writeText(b.dataset.copy); ok = true; } catch (e) { ok = legacy(); }
+    lab.textContent = ok ? 'Link copied' : 'Press Ctrl+C to copy';
     b.classList.add('ok');
     setTimeout(() => { lab.textContent = was; b.classList.remove('ok'); }, 1800);
   }));

@@ -125,7 +125,7 @@ def cases_page():
     body = f'''<header class="page-h"><div class="wrap"><span class="label">The record</span><h1>Case files</h1>
 <p>People held and communities facing orders, each followed from the first order to the latest ruling. The bracket beside a name is the process the law allows them.</p></div></header>
 <div class="wrap"><div class="filters" data-filter=".cases .case">{chips}</div>
-<div class="cases" style="margin-top:20px">{cards}</div>
+<h2 class="vh">All case files</h2><div class="cases" style="margin-top:20px">{cards}</div>
 <div class="block" style="padding-bottom:0"><h2 class="bh" style="font-size:24px;margin-bottom:12px">How to read the brackets</h2>
 <ul class="legend legend--paper">{legend}</ul></div></div><div style="height:56px"></div>'''
     write('cases.html', page('cases.html', 'Case files', 'People held and communities facing orders, followed from the first order to the latest ruling.', body + S.help_band(), 'cases'))
@@ -156,7 +156,7 @@ def rights():
     orgs = ''.join(f'<a class="org" href="{x["url"]}" rel="noopener"><b>{esc(x["name"])}{icon("i-out")}</b><span>{esc(x["line"])}</span></a>' for x in E['orgs'])
     body = f'''<header class="page-h"><div class="wrap"><span class="label">Guides</span><h1>Know your rights</h1>
 <p>What the law says, what it is used for, and where to turn. These guides explain; they are not legal advice for a particular case. For that, ask a lawyer.</p></div></header>
-<section class="block"><div class="wrap"><div class="guides">{items}</div></div></section>
+<section class="block"><div class="wrap"><h2 class="vh">The guides</h2><div class="guides">{items}</div></div></section>
 <section class="block block--mist"><div class="wrap"><div class="block-h"><div><h2 class="bh">Legal aid and rights groups</h2><p>Go to them directly. Their own sites list how to reach them.</p></div><a class="more" href="directory.html">The full directory {icon("i-right")}</a></div><div class="orgs">{orgs}</div></div></section>
 <section class="block"><div class="wrap"><div class="block-h"><div><h2 class="bh">The words of the law</h2><p>Administrative detention, remand, secret file, firing zone: the terms these guides use, in plain English.</p></div><a class="more" href="glossary.html">Open the glossary {icon("i-right")}</a></div></div></section>'''
     write('rights.html', page('rights.html', 'Know your rights', 'Short guides to the laws used to hold Palestinians, and where to turn.', body + S.help_band(), 'rights'))

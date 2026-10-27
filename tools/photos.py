@@ -57,6 +57,11 @@ def main():
             time.sleep(3)
         if not os.path.exists(out):
             continue
+        small = os.path.join(OUT, slug + '-480.webp')            # for cards, rows and phones (srcset)
+        if not os.path.exists(small):
+            im = Image.open(out)
+            im.thumbnail((480, 480))
+            im.save(small, 'WEBP', quality=74, method=6)
         im = Image.open(out)
         meta[slug] = {'w': im.size[0], 'h': im.size[1]}
         credits.append(f"- `{slug}.webp` — [{p['file'][5:]}]({p['page_url']}) · {p['author']} · {p['license']} · "

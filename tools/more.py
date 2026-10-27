@@ -68,6 +68,8 @@ def story(sid):
     figs = ''.join(f'<div class="fig"><span class="num">{esc(f["v"])}</span><span>{esc(f["label"])}</span></div>' for f in s.get('figures', []))
     aside = f'<div class="box"><span class="label">In figures</span><div class="figs">{figs}</div></div>' if figs else ''
     aside += P.sources_box(s['sources'])
+    if s.get('differ'):
+        aside += f'<div class="box box--differ"><span class="label">Where the sources differ</span><p>{esc(s["differ"])}</p></div>'
     if not s.get('verified'):
         aside += '<p class="note">Reported by one outlet so far. We will add a second source, or correct this page, when there is one.</p>'
     cs = [c for c in E['cases'] if sid in c.get('stories', [])]
@@ -84,7 +86,7 @@ def story(sid):
     pn = ''
     if newer or older:
         cell = lambda i, lab, cls: (f'<a class="pn-a {cls}" href="{i}.html"><span class="label">{lab}</span><b>{esc(ST[i]["headline"])}</b>'
-                                    f'<span class="meta">{day(ST[i]["date"], True)}</span></a>') if i else '<span></span>'
+                                    f'<span class="meta">{day(ST[i]["date"], True)}</span></a>') if i else ''
         pn = f'<nav class="pn" aria-label="More in {esc(SEC[sec][2])}">{cell(older, "← Earlier in " + SEC[sec][1], "pn-prev")}{cell(newer, "Later in " + SEC[sec][1] + " →", "pn-next")}</nav>'
     url = f'{S.BASE_URL}story/{sid}.html'
     ld = jsonld({'@context': 'https://schema.org', '@type': 'NewsArticle', 'headline': s['headline'], 'description': s['dek'],
@@ -100,7 +102,7 @@ def story(sid):
 {f'<div class="art-fig">{fig}</div>' if fig else ''}
 <div class="art"><div><div class="prose">{body}</div>{pn}</div><aside class="aside">{aside}</aside></div>
 </article>
-<section class="block" style="margin-top:48px"><div class="wrap"><div class="block-h"><h2 class="bh">Also on the record</h2></div><div class="grid">{rel}</div></div></section>'''
+<section class="block" style="margin-top:48px"><div class="wrap"><div class="block-h"><h2 class="bh">Also on the record</h2></div><div class="grid rail-x">{rel}</div></div></section>'''
     P.write(f'story/{sid}.html', S.head(s['headline'], s['dek'], f'story/{sid}.html', og=og_photo(s.get('photo')), extra=ld, kind='article')
             + S.top(sec) + html + S.help_band() + S.foot())
 
@@ -138,8 +140,8 @@ def case(c):
 <div class="art"><div><h2 class="bh" style="font-size:26px;margin-bottom:24px">The record, in order</h2><ol class="tl">{tl}</ol>
 {f'<div style="margin-top:20px">{fig}</div>' if fig else ''}</div>
 <aside class="aside">{P.sources_box(c["sources"])}<p class="note">Status checked {day(E["date"], True)}. If you know of a later order or ruling, tell us through the <a class="ln" href="../contact.html">contact form</a>.</p></aside></div>
-{f'<section class="block" style="margin-top:40px"><div class="wrap"><div class="block-h"><h2 class="bh">Reporting on this case</h2></div><div class="grid">{stories}</div></div></section>' if stories else ''}
-{f'<section class="block block--mist"><div class="wrap"><div class="block-h"><h2 class="bh">Other case files</h2><a class="more" href="../cases.html">All case files {icon("i-right")}</a></div><div class="cases">{more}</div></div></section>' if more else ''}'''
+{f'<section class="block" style="margin-top:40px"><div class="wrap"><div class="block-h"><h2 class="bh">Reporting on this case</h2></div><div class="grid rail-x">{stories}</div></div></section>' if stories else ''}
+{f'<section class="block block--mist"><div class="wrap"><div class="block-h"><h2 class="bh">Other case files</h2><a class="more" href="../cases.html">All case files {icon("i-right")}</a></div><div class="cases rail-x">{more}</div></div></section>' if more else ''}'''
     P.write(f'case/{c["id"]}.html', S.head(c['title'], c['summary'], f'case/{c["id"]}.html', og=og_photo(c.get('photo'))) + S.top('cases') + html + S.help_band() + S.foot())
 
 
@@ -187,7 +189,7 @@ def guide(i, x):
     pts = ''.join(f'<li id="p{j + 1}"><span class="pnum">§{i + 1}.{j + 1}</span><p>{esc(p["text"])}</p>{f"""<a href="{p["source_url"]}" rel="noopener">Source</a>""" if p.get("source_url") else ""}</li>' for j, p in enumerate(x['points']))
     terms = [g for g in GL if g.get('guide') == x['id']]
     tbox = ('<div class="box"><span class="label">Words used here</span><dl class="dl">' + ''.join(
-        f'<dt><a href="../glossary.html#{g["id"]}">{esc(g["term"])}</a></dt><dd>{esc(g["def"].split(". ")[0])}.</dd>' for g in terms) + '</dl></div>') if terms else ''
+        f'<dt><a href="../glossary.html#{g["id"]}">{esc(g["term"])}</a></dt><dd>{esc(g["def"].split(". ")[0].rstrip("."))}.</dd>' for g in terms) + '</dl></div>') if terms else ''
     g = E['guides']
     others = ''.join(f'<a class="guide" href="{y["id"]}.html"><span class="num">§{j + 1}</span><h3>{esc(y["title"])}</h3><p>{esc(y["line"])}</p></a>' for j, y in enumerate(g) if y['id'] != x['id'])
     stat = next((k for k in KINDS if k[4] == x['id']), None)
@@ -285,11 +287,11 @@ def glossary():
             cur = l
         see = ', '.join(f'<a href="#{s}">{esc(idx[s]["term"])}</a>' for s in g.get('see', []) if s in idx)
         gd = GUIDE.get(g.get('guide'))
-        items += f'''<div class="term" id="{g["id"]}"><dt>{status_svg(g["status"]) if g.get("status") else ""}<span>{esc(g["term"])}</span></dt>
-<dd><p>{esc(g["def"])}</p><p class="meta">{f"See also {see}. " if see else ""}{f"""Guide: <a href="rights/{gd["id"]}.html">{esc(gd["title"])}</a>. """ if gd else ""}<a href="{g["source"]}" rel="noopener">Source</a></p></dd></div>'''
+        items += f'''<dl class="term" id="{g["id"]}"><dt>{status_svg(g["status"]) if g.get("status") else ""}<span>{esc(g["term"])}</span></dt>
+<dd><p>{esc(g["def"])}</p><p class="meta">{f"See also {see}. " if see else ""}{f"""Guide: <a href="rights/{gd["id"]}.html">{esc(gd["title"])}</a>. """ if gd else ""}<a href="{g["source"]}" rel="noopener">Source</a></p></dd></dl>'''
     body = f'''<header class="page-h"><div class="wrap">{crumbs(("Front page", "home.html"), ("Glossary", None))}<h1>Glossary</h1>
 <p>The words of detention law and the courts, in plain English, each with its source.</p><nav class="az" aria-label="Jump to a letter">{jump}</nav></div></header>
-<div class="wrap"><dl class="gl">{items}</dl></div><div style="height:56px"></div>'''
+<div class="wrap"><div class="gl">{items}</div></div><div style="height:56px"></div>'''
     P.write('glossary.html', P.page('glossary.html', 'Glossary', 'The words of detention law and the courts, in plain English.', body + S.help_band(), 'glossary'))
 
 

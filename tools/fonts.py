@@ -30,7 +30,7 @@ UNICODES = (
 )
 
 JOBS = [
-    ('MonaSans[wdth,wght].ttf', 'mona.woff2', {'wdth': (100, 125), 'wght': (400, 900)}),
+    ('MonaSans[wdth,wght].ttf', 'mona.woff2', {'wdth': (100, 125), 'wght': (500, 840)}),
     ('Petrona[wght].ttf', 'petrona.woff2', {'wght': (300, 700)}),
     ('Petrona-Italic[wght].ttf', 'petrona-italic.woff2', {'wght': (300, 700)}),
 ]

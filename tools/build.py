@@ -61,8 +61,12 @@ def row(sid, with_photo=True):
 
 def card(sid, sizes='(max-width:640px) 100vw, 25vw'):
     s = ST[sid]
-    ph = photo(s.get('photo'), sizes, 'ph ph--32')
-    return f'''<a class="card{'' if ph else ' card--text'} rv" href="{story_url(sid)}">{ph}<span class="label">{esc(SEC[s["section"]][1])}</span><h3>{esc(s["headline"])}</h3>
+    # no honest photograph: a typographic plate (section bracket, place, date) keeps every card in a row
+    # the same shape, so headlines line up; it never pretends to be a picture
+    ph = photo(s.get('photo'), sizes, 'ph ph--32') or (
+        f'<div class="plate plate--story" aria-hidden="true"><span class="pl-sec">{esc(SEC[s["section"]][1])}</span>'
+        f'<b>{esc(s["place"])}</b><span class="pl-d">{day(s["date"], True)}</span></div>')
+    return f'''<a class="card rv" href="{story_url(sid)}">{ph}<span class="label">{esc(SEC[s["section"]][1])}</span><h3>{esc(s["headline"])}</h3>
 <p>{esc(s["dek"])}</p><span class="meta">{day(s["date"])} · {esc(s["place"])}</span></a>'''
 
 
@@ -101,7 +105,7 @@ def cases():
     return f'''<section class="block block--mist"><div class="wrap">
 <div class="block-h"><div><h2 class="bh">Case files</h2><p>People and communities we follow from the first order to the last ruling. The clock counts today.</p></div>
 <a class="more" href="cases.html">All case files {icon("i-right")}</a></div>
-<div class="cases">{"".join(case_card(c) for c in cs)}</div></div></section>'''
+<div class="cases rail-x">{"".join(case_card(c) for c in cs)}</div></div></section>'''
 
 
 def section_block(slug, ids):
@@ -110,7 +114,7 @@ def section_block(slug, ids):
     t = SEC[slug]
     return f'''<section class="block"><div class="wrap">
 <div class="block-h"><div><h2 class="bh">{esc(t[2])}</h2><p>{esc(t[3])}</p></div><a class="more" href="{slug}.html">More {esc(t[1].lower())} {icon("i-right")}</a></div>
-<div class="grid">{"".join(card(i) for i in ids[:4])}</div></div></section>'''
+<div class="grid rail-x">{"".join(card(i) for i in ids[:4])}</div></div></section>'''
 
 
 def guides():
