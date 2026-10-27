@@ -9,7 +9,7 @@ import json
 import os
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
-V = '18'                                       # bump on any asset change (Chrome caches hard)
+V = '19'                                       # bump on any asset change (Chrome caches hard)
 SITE = 'Palestine Defense Force'
 BASE_URL = 'https://imsemoo.github.io/palestine-defense-force-prototype/'   # TakTek-Dev Pages waits on the org Actions allowlist
 E = json.load(open(os.path.join(ROOT, 'tools', 'edition.json'), encoding='utf-8'))
