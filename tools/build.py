@@ -25,7 +25,8 @@ def kicker(s):
 def docket():
     d = E['docket']
     L = d['latest']
-    rows = ''.join(f'''<li><span>{status_svg(g)}</span><span class="t">{lab}<small>{line}</small></span>
+    slug = {'sentenced': 'sentenced', 'remand': 'remand', 'administrative': 'administrative', 'unlawful_combatants': 'unlawful-combatants'}
+    rows = ''.join(f'''<li><span>{status_svg(g)}</span><a class="t" href="{C.R}status/{slug[k]}.html">{lab}<small>{line}</small></a>
 <span class="n"><b>{n(L[k])}</b><small>{round(L[k] / L["total"] * 100)}% of all held</small></span></li>''' for k, g, lab, line in KIND_ROWS)
     ser = d['series']
     first, last = ser[0], ser[-1]

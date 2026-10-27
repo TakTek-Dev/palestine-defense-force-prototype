@@ -9,7 +9,7 @@ import json
 import os
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
-V = '7'                                       # bump on any asset change (Chrome caches hard)
+V = '11'                                       # bump on any asset change (Chrome caches hard)
 SITE = 'Palestine Defense Force'
 BASE_URL = 'https://imsemoo.github.io/palestine-defense-force-prototype/'   # TakTek-Dev Pages waits on the org Actions allowlist
 E = json.load(open(os.path.join(ROOT, 'tools', 'edition.json'), encoding='utf-8'))
@@ -85,6 +85,9 @@ SPRITE = '''<svg width="0" height="0" style="position:absolute" aria-hidden="tru
 <symbol id="i-x" viewBox="0 0 16 16"><path d="m3.5 3.5 9 9m0-9-9 9" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round"/></symbol>
 <symbol id="i-play" viewBox="0 0 16 16"><path d="M5 3.2v9.6c0 .5.5.8.9.5l7-4.8a.6.6 0 0 0 0-1L5.9 2.7c-.4-.3-.9 0-.9.5z" fill="currentColor"/></symbol>
 <symbol id="i-pause" viewBox="0 0 16 16"><rect x="4" y="3" width="2.6" height="10" rx=".8" fill="currentColor"/><rect x="9.4" y="3" width="2.6" height="10" rx=".8" fill="currentColor"/></symbol>
+<symbol id="i-link" viewBox="0 0 16 16"><path d="M6.8 9.2a3 3 0 0 0 4.2 0l2-2a3 3 0 0 0-4.2-4.2l-.9.9M9.2 6.8a3 3 0 0 0-4.2 0l-2 2a3 3 0 0 0 4.2 4.2l.9-.9" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/></symbol>
+<symbol id="i-print" viewBox="0 0 16 16"><path d="M4.5 6V2.5h7V6M4.5 11.5h-2v-5h11v5h-2M4.5 9.5h7v4h-7z" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"/></symbol>
+<symbol id="i-check" viewBox="0 0 16 16"><path d="m3 8.5 3 3 7-7" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></symbol>
 </defs></svg>'''
 
 
@@ -149,10 +152,10 @@ def sec_link(slug):
 
 
 # ---------------------------------------------------------------- shell
-NAV = [('cases', 'Case files'), ('docket', 'The docket'), ('rights', 'Know your rights'), ('about', 'About')]
+NAV = [('cases', 'Case files'), ('docket', 'The docket'), ('archive', 'Archive'), ('rights', 'Know your rights'), ('glossary', 'Glossary'), ('about', 'About')]
 
 
-def head(title, desc, path, og=None, extra=''):
+def head(title, desc, path, og=None, extra='', kind='website'):
     t = f'{title} · {SITE}' if title != SITE else f'{SITE} — legal defense and the record of Palestinians held'
     url = BASE_URL + path
     og = og or BASE_URL + 'assets/og.png'
@@ -165,7 +168,7 @@ def head(title, desc, path, og=None, extra=''):
 <meta name="description" content="{esc(desc)}">
 <meta name="robots" content="noindex">
 <link rel="canonical" href="{url}">
-<meta property="og:type" content="website"><meta property="og:site_name" content="{SITE}">
+<meta property="og:type" content="{kind}"><meta property="og:site_name" content="{SITE}">
 <meta property="og:title" content="{esc(title)}"><meta property="og:description" content="{esc(desc)}">
 <meta property="og:url" content="{url}"><meta property="og:image" content="{og}">
 <meta name="twitter:card" content="summary_large_image">
@@ -233,8 +236,8 @@ def foot(js=True):
 <div class="foot-top">
 <div>{lockup(night=True)}<p>A legal-defense desk for Palestinians: who is held, on what law, in which court, and what can be done about it. Every figure is linked to its source.</p></div>
 <div><h4>Sections</h4><ul>{secs}</ul></div>
-<div><h4>The record</h4><ul><li><a href="{C.R}docket.html">The docket</a></li><li><a href="{C.R}cases.html">Case files</a></li><li><a href="{C.R}rights.html">Know your rights</a></li><li><a href="{C.R}search.html">Search</a></li></ul></div>
-<div><h4>Us</h4><ul><li><a href="{C.R}about.html">About</a></li><li><a href="{C.R}method.html">How we keep the record</a></li><li><a href="{C.R}help.html">Request a lawyer</a></li><li><a href="{C.R}credits.html">Credits</a></li><li><a href="{C.R}index.html">Identity book</a></li></ul></div>
+<div><h4>The record</h4><ul><li><a href="{C.R}docket.html">The docket</a></li><li><a href="{C.R}cases.html">Case files</a></li><li><a href="{C.R}archive.html">Archive</a></li><li><a href="{C.R}rights.html">Know your rights</a></li><li><a href="{C.R}glossary.html">Glossary</a></li><li><a href="{C.R}directory.html">Legal-aid directory</a></li><li><a href="{C.R}search.html">Search</a></li></ul></div>
+<div><h4>Us</h4><ul><li><a href="{C.R}about.html">About</a></li><li><a href="{C.R}method.html">How we keep the record</a></li><li><a href="{C.R}corrections.html">Corrections</a></li><li><a href="{C.R}help.html">Request a lawyer</a></li><li><a href="{C.R}contact.html">Contact</a></li><li><a href="{C.R}privacy.html">Privacy</a></li><li><a href="{C.R}credits.html">Credits</a></li><li><a href="{C.R}index.html">Identity book</a></li></ul></div>
 </div>
 <div class="foot-bot"><span>© {TODAY.year} {SITE}. Design prototype; reporting summarised from the sources linked on each page.</span><span>Photographs: Wikimedia Commons, credited on each.</span></div>
 </div></footer>

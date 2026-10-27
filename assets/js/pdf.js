@@ -99,7 +99,19 @@
     if (q0) { sf.value = q0; run(); }
   }
 
-  /* ---------------------------------------------------------- prototype form */
+  /* ---------------------------------------------------------- copy link, print */
+  $$('[data-copy]').forEach(b => b.addEventListener('click', async () => {
+    const lab = $('span', b), was = lab.textContent;
+    try { await navigator.clipboard.writeText(b.dataset.copy); lab.textContent = 'Link copied'; }
+    catch (e) { lab.textContent = 'Copy failed'; }
+    b.classList.add('ok');
+    setTimeout(() => { lab.textContent = was; b.classList.remove('ok'); }, 1800);
+  }));
+  $$('[data-print]').forEach(b => b.addEventListener('click', () => print()));
+
+  /* ---------------------------------------------------------- prototype forms */
+  const cf = $('#contact-form');
+  if (cf) cf.addEventListener('submit', e => { e.preventDefault(); $('#contact-done').hidden = false; $('#contact-done').focus(); });
   const form = $('#help-form');
   if (form) form.addEventListener('submit', e => {
     e.preventDefault();

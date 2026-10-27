@@ -140,12 +140,12 @@ def docket_page():
     srcs = ''.join(f'<li><span><a href="{s["url"]}">{esc(s["title"])}</a><small>{esc(s["outlet"])}{", " + day(s["date"], True) if s.get("date") else ""}</small></span></li>' for s in d['sources'])
     C.R = ''
     body = f'''{B.docket().replace('<h1 id="docket-h">', '<h1 id="docket-h" style="font-size:clamp(32px,4vw,54px)">', 1)}
-<section class="block"><div class="wrap art" style="margin:0 auto;padding:0;max-width:none;grid-template-columns:minmax(0,1fr) minmax(0,320px)">
+<section class="block"><div class="wrap"><div class="art art--wide">
 <div><h2 class="bh" style="font-size:28px;margin-bottom:20px">Month by month</h2>
 <div class="scroll-x"><table class="tbl"><thead><tr><th scope="col">Month</th><th scope="col">Sentenced</th><th scope="col">Remand</th><th scope="col">Administrative</th><th scope="col">“Unlawful combatants”</th><th scope="col">Total</th></tr></thead><tbody>{rows}</tbody></table></div>
 <p class="note" style="margin-top:18px">{esc(d.get("note", ""))}</p></div>
 <aside class="aside">{f'<div class="box"><span class="label">Also on the record</span><div class="figs">{extra}</div></div>' if extra else ''}
-<div class="box"><span class="label">Sources</span><ol class="record">{srcs}</ol></div></aside></div></section>'''
+<div class="box"><span class="label">Sources</span><ol class="record">{srcs}</ol></div></aside></div></div></section>'''
     write('docket.html', page('docket.html', 'The docket', 'Palestinians held by Israel, month by month, by the law that holds them.', body + S.help_band(), 'docket'))
 
 
@@ -157,7 +157,8 @@ def rights():
     body = f'''<header class="page-h"><div class="wrap"><span class="label">Guides</span><h1>Know your rights</h1>
 <p>What the law says, what it is used for, and where to turn. These guides explain; they are not legal advice for a particular case. For that, ask a lawyer.</p></div></header>
 <section class="block"><div class="wrap"><div class="guides">{items}</div></div></section>
-<section class="block block--mist"><div class="wrap"><div class="block-h"><div><h2 class="bh">Legal aid and rights groups</h2><p>Go to them directly. Their own sites list how to reach them.</p></div></div><div class="orgs">{orgs}</div></div></section>'''
+<section class="block block--mist"><div class="wrap"><div class="block-h"><div><h2 class="bh">Legal aid and rights groups</h2><p>Go to them directly. Their own sites list how to reach them.</p></div><a class="more" href="directory.html">The full directory {icon("i-right")}</a></div><div class="orgs">{orgs}</div></div></section>
+<section class="block"><div class="wrap"><div class="block-h"><div><h2 class="bh">The words of the law</h2><p>Administrative detention, remand, secret file, firing zone: the terms these guides use, in plain English.</p></div><a class="more" href="glossary.html">Open the glossary {icon("i-right")}</a></div></div></section>'''
     write('rights.html', page('rights.html', 'Know your rights', 'Short guides to the laws used to hold Palestinians, and where to turn.', body + S.help_band(), 'rights'))
     for i, x in enumerate(g):
         C.R = '../'
@@ -218,6 +219,10 @@ def static_pages():
     idx = [{'u': f'story/{i}.html', 'd': day(ST[i]['date'], True), 'k': esc(SEC[ST[i]['section']][1]), 'h': esc(ST[i]['headline']), 's': esc(ST[i]['dek']),
             't': ' '.join([ST[i]['headline'], ST[i]['dek'], ST[i]['place'], ' '.join(ST[i]['body'])] + ST[i].get('people', []))} for i in E['by_date']]
     idx += [{'u': f'case/{c["id"]}.html', 'd': 'Case file', 'k': 'Case file', 'h': esc(c['title']), 's': esc(c['summary']), 't': c['title'] + ' ' + c['summary'] + ' ' + c['place']} for c in E['cases']]
+    GL = json.load(open(os.path.join(ROOT, 'tools', 'glossary.json'), encoding='utf-8'))
+    idx += [{'u': f'rights/{g["id"]}.html', 'd': 'Guide', 'k': 'Know your rights', 'h': esc(g['title']), 's': esc(g['line']),
+             't': g['title'] + ' ' + g['line'] + ' ' + ' '.join(p['text'] for p in g['points'])} for g in E['guides']]
+    idx += [{'u': f'glossary.html#{g["id"]}', 'd': 'Glossary', 'k': 'Glossary', 'h': esc(g['term']), 's': esc(g['def']), 't': g['term'] + ' ' + g['def']} for g in GL]
     search = f'''<header class="page-h"><div class="wrap"><span class="label">Search</span><h1>Search the record</h1>
 <form class="form" role="search" onsubmit="return false" style="margin-top:22px;max-width:720px"><label><span class="vh">Search</span><input id="q" type="search" placeholder="A name, a town, a court, a law" autofocus></label></form>
 <p class="meta" id="count" aria-live="polite" style="margin-top:14px"></p></div></header>
@@ -244,6 +249,8 @@ def main():
     docket_page()
     rights()
     static_pages()
+    import more                                    # fuller story/case/section/guide pages, and the second round
+    more.main()
     print('pages:', len(E['by_date']), 'stories,', len(E['cases']), 'cases,', len(E['guides']), 'guides')
 
 
