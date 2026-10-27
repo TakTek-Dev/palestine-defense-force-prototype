@@ -7,7 +7,7 @@ import re
 from urllib.parse import urlsplit, unquote
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
-BASE = 'https://taktek-dev.github.io/palestine-defense-force-prototype/'
+BASE = 'https://imsemoo.github.io/palestine-defense-force-prototype/'
 pages = [os.path.join(dp, f) for dp, _, fs in os.walk(ROOT) for f in fs
          if f.endswith('.html') and 'research' not in dp and 'tools' not in dp]
 bad = 0
